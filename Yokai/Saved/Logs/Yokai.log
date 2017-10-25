@@ -1,9 +1,9 @@
-﻿Log file open, 08/10/17 20:12:52
+﻿Log file open, 10/22/17 15:38:10
 LogInit:Display: Running engine for game: Yokai
 LogPlatformFile: Not using cached read wrapper
-LogInit:Display: RandInit(-27316305) SRandInit(-27316305).
+LogInit:Display: RandInit(1763185181) SRandInit(1763185181).
 LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
-LogStats: Stats thread started at 0.082797
+LogStats: Stats thread started at 0.082925
 LogInit: Using libcurl 7.47.1
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2g
@@ -50,489 +50,801 @@ LogInit: Base directory: E:/Epic Games/UE_4.16/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2017.08.11-02.12.52:876][  0]LogInit: Selected Device Profile: [Windows]
-[2017.08.11-02.12.52:876][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2017.08.11-02.12.52:883][  0]LogInit: Computer: FRACTALR4
-[2017.08.11-02.12.52:883][  0]LogInit: User: Char
-[2017.08.11-02.12.52:883][  0]LogInit: CPU Page size=4096, Cores=4
-[2017.08.11-02.12.52:883][  0]LogInit: High frequency timer resolution =3.903986 MHz
-[2017.08.11-02.12.52:883][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
-[2017.08.11-02.12.52:883][  0]LogMemory: Platform Memory Stats for Windows
-[2017.08.11-02.12.52:883][  0]LogMemory: Process Physical Memory: 271.04 MB used, 271.04 MB peak
-[2017.08.11-02.12.52:883][  0]LogMemory: Process Virtual Memory: 262.87 MB used, 262.87 MB peak
-[2017.08.11-02.12.52:883][  0]LogMemory: Physical Memory: 6858.29 MB used,  25850.98 MB free, 32709.27 MB total
-[2017.08.11-02.12.52:883][  0]LogMemory: Virtual Memory: 619.99 MB used,  25850.98 MB free, 134217728.00 MB total
-[2017.08.11-02.12.52:925][  0]LogInit: Using OS detected language (en-US).
-[2017.08.11-02.12.52:925][  0]LogInit: Using OS detected locale (en-CA).
-[2017.08.11-02.12.52:927][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2017.08.11-02.12.53:694][  0]LogD3D11RHI: D3D11 adapters:
-[2017.08.11-02.12.54:237][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970' (Feature Level 11_0)
-[2017.08.11-02.12.54:237][  0]LogD3D11RHI:       3944/0/16354 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
-[2017.08.11-02.12.54:238][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2017.08.11-02.12.54:238][  0]LogD3D11RHI:       0/0/256 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2017.08.11-02.12.54:238][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2017.08.11-02.12.54:242][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2017.08.11-02.12.54:242][  0]LogD3D11RHI:     GPU DeviceId: 0x13c2 (for the marketing name, search the web for "GPU Device Id")
-[2017.08.11-02.12.54:242][  0]LogWindows: EnumDisplayDevices:
-[2017.08.11-02.12.54:242][  0]LogWindows:    0. 'NVIDIA GeForce GTX 970' (P:0 D:1)
-[2017.08.11-02.12.54:242][  0]LogWindows:    1. 'NVIDIA GeForce GTX 970' (P:1 D:1)
-[2017.08.11-02.12.54:242][  0]LogWindows:    2. 'NVIDIA GeForce GTX 970' (P:0 D:0)
-[2017.08.11-02.12.54:243][  0]LogWindows:    3. 'NVIDIA GeForce GTX 970' (P:0 D:0)
-[2017.08.11-02.12.54:243][  0]LogWindows: DebugString: FoundDriverCount:4 
-[2017.08.11-02.12.54:243][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970
-[2017.08.11-02.12.54:243][  0]LogD3D11RHI:   Driver Version: 382.05 (internal:22.21.13.8205, unified:382.05)
-[2017.08.11-02.12.54:243][  0]LogD3D11RHI:      Driver Date: 5-1-2017
-[2017.08.11-02.12.54:243][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2017.08.11-02.12.54:727][  0]LogD3D11RHI: Async texture creation enabled
-[2017.08.11-02.12.54:755][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
-[2017.08.11-02.12.54:849][  0]LogShaderCompilers: Guid format shader working directory is 10 characters bigger than the processId version (I:/gitRepo/Farrah/Bushikoden/Yokai/Intermediate/Shaders/WorkingDirectory/11148/).
-[2017.08.11-02.12.54:849][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Char/AppData/Local/Temp/UnrealShaderWorkingDir/40E4D139471EE39365177BA0619538FB/'.
-[2017.08.11-02.12.54:849][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
-[2017.08.11-02.12.55:663][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
-[2017.08.11-02.12.55:694][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
-[2017.08.11-02.12.55:722][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
-[2017.08.11-02.12.55:753][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
-[2017.08.11-02.12.55:782][  0]LogTemp:Display: Loaded TP MacTargetPlatform
-[2017.08.11-02.12.55:810][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
-[2017.08.11-02.12.55:840][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
-[2017.08.11-02.12.55:869][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
-[2017.08.11-02.12.55:897][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
-[2017.08.11-02.12.55:925][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
-[2017.08.11-02.12.55:957][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
-[2017.08.11-02.12.55:986][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
-[2017.08.11-02.12.56:019][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
-[2017.08.11-02.12.56:046][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
-[2017.08.11-02.12.56:077][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
-[2017.08.11-02.12.56:132][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
-[2017.08.11-02.12.56:132][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
-[2017.08.11-02.12.56:152][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
-[2017.08.11-02.12.56:214][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
-[2017.08.11-02.12.56:231][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
-[2017.08.11-02.12.56:258][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
-[2017.08.11-02.12.56:286][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
-[2017.08.11-02.12.56:313][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
-[2017.08.11-02.12.56:342][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
-[2017.08.11-02.12.56:342][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2017.08.11-02.12.56:607][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
-[2017.08.11-02.12.56:691][  0]LogDerivedDataCache: Loaded boot cache 0.08s 90MB C:/Users/Char/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
-[2017.08.11-02.12.56:691][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Char/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
-[2017.08.11-02.12.56:691][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file I:/gitRepo/Farrah/Bushikoden/Yokai/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2017.08.11-02.12.56:691][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2017.08.11-02.12.56:691][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file I:/gitRepo/Farrah/Bushikoden/Yokai/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2017.08.11-02.12.56:691][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2017.08.11-02.12.56:707][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2017.08.11-02.12.56:720][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Char/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2017.08.11-02.12.56:729][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2017.08.11-02.12.56:730][  0]LogSlate: Using Freetype 2.6.0
-[2017.08.11-02.12.56:730][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.08.11-02.12.56:730][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.08.11-02.12.56:977][  0]LogInit: Selected Device Profile: [Windows]
-[2017.08.11-02.12.57:038][  0]LogContentStreaming: Texture pool size is 0.00 MB
-[2017.08.11-02.12.57:146][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
-[2017.08.11-02.12.57:169][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2017.08.11-02.12.57:194][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
-[2017.08.11-02.12.57:194][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
-[2017.08.11-02.12.57:194][  0]LogMeshUtilities: No automatic mesh merging module available
-[2017.08.11-02.12.57:592][  0]LogNetVersion: Yokai , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 124747973)
-[2017.08.11-02.12.57:638][  0]LogAssetRegistry: FAssetRegistry took 0.0247 seconds to start up
-[2017.08.11-02.12.57:671][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.021155 seconds
-[2017.08.11-02.12.57:677][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
-[2017.08.11-02.12.57:677][  0]LogUObjectAllocator: 7260424 out of 0 bytes used by permanent object pool.
-[2017.08.11-02.12.57:677][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2017.08.11-02.12.57:716][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2017.08.11-02.12.59:358][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2017.08.11-02.12.59:393][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2017.08.11-02.12.59:712][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2017.08.11-02.12.59:945][  0]SourceControl: Info Source control is disabled
-[2017.08.11-02.12.59:985][  0]SourceControl: Info Source control is disabled
-[2017.08.11-02.13.00:009][  0]SourceControl: Info Source control is disabled
-[2017.08.11-02.13.00:032][  0]SourceControl: Info Source control is disabled
-[2017.08.11-02.13.00:165][  0]LogLinker:Warning: Can't find file '/Game/SideScrollerBP/SideScrollerOverview'
-[2017.08.11-02.13.00:165][  0]LogLinker:Warning: Can't find file '/Game/SideScrollerBP/SideScrollerOverview'
-[2017.08.11-02.13.00:165][  0]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/SideScrollerBP/SideScrollerOverview.SideScrollerOverview_C'
-[2017.08.11-02.13.00:384][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2017.08.11-02.13.00:717][  0]LogEngine: Initializing Engine...
-[2017.08.11-02.13.00:717][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2017.08.11-02.13.00:886][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2017.08.11-02.13.00:886][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2017.08.11-02.13.00:971][  0]LogAIModule: Creating AISystem for world Untitled
-[2017.08.11-02.13.00:980][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x60f)
-[2017.08.11-02.13.00:986][  0]LogInit: FAudioDevice initialized.
-[2017.08.11-02.13.01:031][  0]LogDerivedDataCache: Saved boot cache 0.04s 90MB C:/Users/Char/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
-[2017.08.11-02.13.01:040][  0]LogInit: Texture streaming: Enabled
-[2017.08.11-02.13.01:091][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2017.08.11-02.13.01:213][  0]LogInit: Transaction tracking system initialized
-[2017.08.11-02.13.01:375][  0]BlueprintLog: New page: Editor Load
-[2017.08.11-02.13.01:917][  0]LocalizationService: Info Localization service is disabled
-[2017.08.11-02.13.02:295][  0]LogConsoleResponse:Display: 
-[2017.08.11-02.13.02:407][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2017.08.11-02.13.02:407][  0]LogCook:Display: Mobile HDR setting 1
-[2017.08.11-02.13.02:679][  0]LogFileCache: Scanning file cache for directory 'I:/gitRepo/Farrah/Bushikoden/Yokai/Content/' took 0.01s
-[2017.08.11-02.13.02:999][  0]SourceControl: Info Source control is disabled
-[2017.08.11-02.13.03:000][  0]LogFactory: FactoryCreateFile: PackFactory with PackFactory (0 0 E:/Epic Games/UE_4.16/FeaturePacks/StarterContent.upack)
-[2017.08.11-02.13.03:004][  0]LogPackFactory: Finished extracting 8 files (including 0 errors).
-[2017.08.11-02.13.03:005][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Floor_400x400.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Architecture/Floor_400x400.uasset"
-[2017.08.11-02.13.03:005][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Pillar_50x500.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Architecture/Pillar_50x500.uasset"
-[2017.08.11-02.13.03:006][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/SM_AssetPlatform.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Architecture/SM_AssetPlatform.uasset"
-[2017.08.11-02.13.03:006][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x200.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Architecture/Wall_400x200.uasset"
-[2017.08.11-02.13.03:006][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x300.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Architecture/Wall_400x300.uasset"
-[2017.08.11-02.13.03:007][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x400.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Architecture/Wall_400x400.uasset"
-[2017.08.11-02.13.03:007][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_500x500.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Architecture/Wall_500x500.uasset"
-[2017.08.11-02.13.03:008][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x300.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Architecture/Wall_Door_400x300.uasset"
-[2017.08.11-02.13.03:008][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x400.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Architecture/Wall_Door_400x400.uasset"
-[2017.08.11-02.13.03:008][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x300.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Architecture/Wall_Window_400x300.uasset"
-[2017.08.11-02.13.03:008][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x400.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Architecture/Wall_Window_400x400.uasset"
-[2017.08.11-02.13.03:009][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse01.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Audio/Collapse01.uasset"
-[2017.08.11-02.13.03:009][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse02.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Audio/Collapse02.uasset"
-[2017.08.11-02.13.03:010][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse_Cue.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Audio/Collapse_Cue.uasset"
-[2017.08.11-02.13.03:010][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion01.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Audio/Explosion01.uasset"
-[2017.08.11-02.13.03:010][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion02.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Audio/Explosion02.uasset"
-[2017.08.11-02.13.03:011][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion_Cue.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Audio/Explosion_Cue.uasset"
-[2017.08.11-02.13.03:011][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Audio/Fire01.uasset"
-[2017.08.11-02.13.03:012][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01_Cue.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Audio/Fire01_Cue.uasset"
-[2017.08.11-02.13.03:013][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Audio/Fire_Sparks01.uasset"
-[2017.08.11-02.13.03:013][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset"
-[2017.08.11-02.13.03:013][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Audio/Light01.uasset"
-[2017.08.11-02.13.03:014][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01_Cue.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Audio/Light01_Cue.uasset"
-[2017.08.11-02.13.03:014][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Audio/Light02.uasset"
-[2017.08.11-02.13.03:014][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02_Cue.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Audio/Light02_Cue.uasset"
-[2017.08.11-02.13.03:015][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Audio/Smoke01.uasset"
-[2017.08.11-02.13.03:015][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01_Cue.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Audio/Smoke01_Cue.uasset"
-[2017.08.11-02.13.03:016][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Background_Cue.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Audio/Starter_Background_Cue.uasset"
-[2017.08.11-02.13.03:017][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Birds01.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Audio/Starter_Birds01.uasset"
-[2017.08.11-02.13.03:022][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music01.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Audio/Starter_Music01.uasset"
-[2017.08.11-02.13.03:023][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music_Cue.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Audio/Starter_Music_Cue.uasset"
-[2017.08.11-02.13.03:024][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind05.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Audio/Starter_Wind05.uasset"
-[2017.08.11-02.13.03:026][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind06.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Audio/Starter_Wind06.uasset"
-[2017.08.11-02.13.03:027][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Audio/Steam01.uasset"
-[2017.08.11-02.13.03:027][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01_Cue.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Audio/Steam01_Cue.uasset"
-[2017.08.11-02.13.03:027][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset"
-[2017.08.11-02.13.03:027][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset"
-[2017.08.11-02.13.03:028][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset"
-[2017.08.11-02.13.03:028][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset"
-[2017.08.11-02.13.03:029][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset"
-[2017.08.11-02.13.03:029][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset"
-[2017.08.11-02.13.03:029][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset"
-[2017.08.11-02.13.03:030][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/BP_LightStudio.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Blueprints/BP_LightStudio.uasset"
-[2017.08.11-02.13.03:030][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset"
-[2017.08.11-02.13.03:030][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset"
-[2017.08.11-02.13.03:030][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset"
-[2017.08.11-02.13.03:031][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset"
-[2017.08.11-02.13.03:031][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset"
-[2017.08.11-02.13.03:032][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/Skybox.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Blueprints/Assets/Skybox.uasset"
-[2017.08.11-02.13.03:033][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset"
-[2017.08.11-02.13.03:033][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset"
-[2017.08.11-02.13.03:074][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset"
-[2017.08.11-02.13.03:075][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Advanced_Lighting.umap" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Maps/Advanced_Lighting.umap"
-[2017.08.11-02.13.03:075][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Advanced_Lighting_BuiltData.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Maps/Advanced_Lighting_BuiltData.uasset"
-[2017.08.11-02.13.03:076][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Minimal_Default.umap" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Maps/Minimal_Default.umap"
-[2017.08.11-02.13.03:077][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset"
-[2017.08.11-02.13.03:080][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/StarterMap.umap" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Maps/StarterMap.umap"
-[2017.08.11-02.13.03:087][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/StarterMap_BuiltData.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Maps/StarterMap_BuiltData.uasset"
-[2017.08.11-02.13.03:088][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_AssetPlatform.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Materials/M_AssetPlatform.uasset"
-[2017.08.11-02.13.03:088][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Floor.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Materials/M_Basic_Floor.uasset"
-[2017.08.11-02.13.03:088][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Wall.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Materials/M_Basic_Wall.uasset"
-[2017.08.11-02.13.03:088][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset"
-[2017.08.11-02.13.03:089][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_New.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Materials/M_Brick_Clay_New.uasset"
-[2017.08.11-02.13.03:090][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset"
-[2017.08.11-02.13.03:090][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset"
-[2017.08.11-02.13.03:090][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset"
-[2017.08.11-02.13.03:091][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset"
-[2017.08.11-02.13.03:091][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset"
-[2017.08.11-02.13.03:091][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset"
-[2017.08.11-02.13.03:092][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset"
-[2017.08.11-02.13.03:092][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset"
-[2017.08.11-02.13.03:093][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Grime.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Materials/M_Concrete_Grime.uasset"
-[2017.08.11-02.13.03:093][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Panels.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Materials/M_Concrete_Panels.uasset"
-[2017.08.11-02.13.03:093][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Poured.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Materials/M_Concrete_Poured.uasset"
-[2017.08.11-02.13.03:093][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Tiles.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Materials/M_Concrete_Tiles.uasset"
-[2017.08.11-02.13.03:094][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Glass.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Materials/M_Glass.uasset"
-[2017.08.11-02.13.03:094][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Grass.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Materials/M_Ground_Grass.uasset"
-[2017.08.11-02.13.03:094][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Gravel.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Materials/M_Ground_Gravel.uasset"
-[2017.08.11-02.13.03:095][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Moss.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Materials/M_Ground_Moss.uasset"
-[2017.08.11-02.13.03:095][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset"
-[2017.08.11-02.13.03:095][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset"
-[2017.08.11-02.13.03:096][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Chrome.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Materials/M_Metal_Chrome.uasset"
-[2017.08.11-02.13.03:096][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Copper.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Materials/M_Metal_Copper.uasset"
-[2017.08.11-02.13.03:096][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Gold.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Materials/M_Metal_Gold.uasset"
-[2017.08.11-02.13.03:097][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Rust.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Materials/M_Metal_Rust.uasset"
-[2017.08.11-02.13.03:097][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Steel.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Materials/M_Metal_Steel.uasset"
-[2017.08.11-02.13.03:098][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Basalt.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Materials/M_Rock_Basalt.uasset"
-[2017.08.11-02.13.03:098][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset"
-[2017.08.11-02.13.03:099][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Sandstone.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Materials/M_Rock_Sandstone.uasset"
-[2017.08.11-02.13.03:099][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Slate.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Materials/M_Rock_Slate.uasset"
-[2017.08.11-02.13.03:099][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset"
-[2017.08.11-02.13.03:099][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset"
-[2017.08.11-02.13.03:100][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset"
-[2017.08.11-02.13.03:100][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Panel.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Materials/M_Tech_Panel.uasset"
-[2017.08.11-02.13.03:100][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Lake.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Materials/M_Water_Lake.uasset"
-[2017.08.11-02.13.03:101][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Ocean.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Materials/M_Water_Ocean.uasset"
-[2017.08.11-02.13.03:101][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset"
-[2017.08.11-02.13.03:101][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset"
-[2017.08.11-02.13.03:102][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Oak.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Materials/M_Wood_Oak.uasset"
-[2017.08.11-02.13.03:102][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Pine.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Materials/M_Wood_Pine.uasset"
-[2017.08.11-02.13.03:102][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Walnut.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Materials/M_Wood_Walnut.uasset"
-[2017.08.11-02.13.03:103][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Ambient_Dust.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Particles/P_Ambient_Dust.uasset"
-[2017.08.11-02.13.03:103][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Explosion.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Particles/P_Explosion.uasset"
-[2017.08.11-02.13.03:104][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Fire.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Particles/P_Fire.uasset"
-[2017.08.11-02.13.03:104][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Smoke.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Particles/P_Smoke.uasset"
-[2017.08.11-02.13.03:104][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Sparks.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Particles/P_Sparks.uasset"
-[2017.08.11-02.13.03:105][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Steam_Lit.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Particles/P_Steam_Lit.uasset"
-[2017.08.11-02.13.03:105][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Burst.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Particles/Materials/M_Burst.uasset"
-[2017.08.11-02.13.03:106][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset"
-[2017.08.11-02.13.03:106][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset"
-[2017.08.11-02.13.03:106][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset"
-[2017.08.11-02.13.03:107][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/m_flare_01.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Particles/Materials/m_flare_01.uasset"
-[2017.08.11-02.13.03:107][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset"
-[2017.08.11-02.13.03:108][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset"
-[2017.08.11-02.13.03:108][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset"
-[2017.08.11-02.13.03:108][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset"
-[2017.08.11-02.13.03:109][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Spark.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Particles/Materials/M_Spark.uasset"
-[2017.08.11-02.13.03:109][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/MaterialSphere.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Props/MaterialSphere.uasset"
-[2017.08.11-02.13.03:109][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Bush.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Props/SM_Bush.uasset"
-[2017.08.11-02.13.03:110][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Chair.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Props/SM_Chair.uasset"
-[2017.08.11-02.13.03:110][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_CornerFrame.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Props/SM_CornerFrame.uasset"
-[2017.08.11-02.13.03:111][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Couch.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Props/SM_Couch.uasset"
-[2017.08.11-02.13.03:112][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Door.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Props/SM_Door.uasset"
-[2017.08.11-02.13.03:112][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_DoorFrame.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Props/SM_DoorFrame.uasset"
-[2017.08.11-02.13.03:113][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_GlassWindow.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Props/SM_GlassWindow.uasset"
-[2017.08.11-02.13.03:113][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset"
-[2017.08.11-02.13.03:114][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Wall.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Props/SM_Lamp_Wall.uasset"
-[2017.08.11-02.13.03:116][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset"
-[2017.08.11-02.13.03:116][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Props/SM_PillarFrame.uasset"
-[2017.08.11-02.13.03:117][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame300.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Props/SM_PillarFrame300.uasset"
-[2017.08.11-02.13.03:119][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Rock.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Props/SM_Rock.uasset"
-[2017.08.11-02.13.03:119][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Shelf.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Props/SM_Shelf.uasset"
-[2017.08.11-02.13.03:119][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Stairs.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Props/SM_Stairs.uasset"
-[2017.08.11-02.13.03:120][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Statue.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Props/SM_Statue.uasset"
-[2017.08.11-02.13.03:120][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_TableRound.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Props/SM_TableRound.uasset"
-[2017.08.11-02.13.03:121][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_WindowFrame.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Props/SM_WindowFrame.uasset"
-[2017.08.11-02.13.03:121][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Bush.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Props/Materials/M_Bush.uasset"
-[2017.08.11-02.13.03:121][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Chair.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Props/Materials/M_Chair.uasset"
-[2017.08.11-02.13.03:122][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Door.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Props/Materials/M_Door.uasset"
-[2017.08.11-02.13.03:122][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Frame.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Props/Materials/M_Frame.uasset"
-[2017.08.11-02.13.03:122][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Lamp.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Props/Materials/M_Lamp.uasset"
-[2017.08.11-02.13.03:123][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset"
-[2017.08.11-02.13.03:123][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset"
-[2017.08.11-02.13.03:123][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Rock.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Props/Materials/M_Rock.uasset"
-[2017.08.11-02.13.03:124][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Shelf.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Props/Materials/M_Shelf.uasset"
-[2017.08.11-02.13.03:124][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Statue.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Props/Materials/M_Statue.uasset"
-[2017.08.11-02.13.03:124][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_StatueGlass.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Props/Materials/M_StatueGlass.uasset"
-[2017.08.11-02.13.03:125][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_TableRound.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Props/Materials/M_TableRound.uasset"
-[2017.08.11-02.13.03:125][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cone.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Shapes/Shape_Cone.uasset"
-[2017.08.11-02.13.03:125][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cube.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Shapes/Shape_Cube.uasset"
-[2017.08.11-02.13.03:125][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cylinder.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Shapes/Shape_Cylinder.uasset"
-[2017.08.11-02.13.03:126][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset"
-[2017.08.11-02.13.03:126][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Shapes/Shape_Pipe.uasset"
-[2017.08.11-02.13.03:127][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_180.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Shapes/Shape_Pipe_180.uasset"
-[2017.08.11-02.13.03:127][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_90.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Shapes/Shape_Pipe_90.uasset"
-[2017.08.11-02.13.03:127][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Plane.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Shapes/Shape_Plane.uasset"
-[2017.08.11-02.13.03:128][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset"
-[2017.08.11-02.13.03:128][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Sphere.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Shapes/Shape_Sphere.uasset"
-[2017.08.11-02.13.03:128][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Torus.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Shapes/Shape_Torus.uasset"
-[2017.08.11-02.13.03:129][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Shapes/Shape_Trim.uasset"
-[2017.08.11-02.13.03:129][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset"
-[2017.08.11-02.13.03:129][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset"
-[2017.08.11-02.13.03:129][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_TriPyramid.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Shapes/Shape_TriPyramid.uasset"
-[2017.08.11-02.13.03:130][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Tube.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Shapes/Shape_Tube.uasset"
-[2017.08.11-02.13.03:130][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_A.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Shapes/Shape_Wedge_A.uasset"
-[2017.08.11-02.13.03:130][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_B.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Shapes/Shape_Wedge_B.uasset"
-[2017.08.11-02.13.03:130][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_WideCapsule.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Shapes/Shape_WideCapsule.uasset"
-[2017.08.11-02.13.03:134][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset"
-[2017.08.11-02.13.03:139][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset"
-[2017.08.11-02.13.03:143][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset"
-[2017.08.11-02.13.03:146][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset"
-[2017.08.11-02.13.03:151][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset"
-[2017.08.11-02.13.03:156][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset"
-[2017.08.11-02.13.03:161][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset"
-[2017.08.11-02.13.03:165][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset"
-[2017.08.11-02.13.03:173][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset"
-[2017.08.11-02.13.03:177][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset"
-[2017.08.11-02.13.03:183][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset"
-[2017.08.11-02.13.03:188][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset"
-[2017.08.11-02.13.03:194][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset"
-[2017.08.11-02.13.03:194][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Burst_M.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Textures/T_Burst_M.uasset"
-[2017.08.11-02.13.03:195][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_D.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Textures/T_Bush_D.uasset"
-[2017.08.11-02.13.03:196][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_N.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Textures/T_Bush_N.uasset"
-[2017.08.11-02.13.03:196][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset"
-[2017.08.11-02.13.03:197][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset"
-[2017.08.11-02.13.03:197][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_M.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Textures/T_Chair_M.uasset"
-[2017.08.11-02.13.03:199][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_N.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Textures/T_Chair_N.uasset"
-[2017.08.11-02.13.03:199][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Checker_Noise_M.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Textures/T_Checker_Noise_M.uasset"
-[2017.08.11-02.13.03:205][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset"
-[2017.08.11-02.13.03:206][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset"
-[2017.08.11-02.13.03:212][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset"
-[2017.08.11-02.13.03:214][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset"
-[2017.08.11-02.13.03:215][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset"
-[2017.08.11-02.13.03:219][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset"
-[2017.08.11-02.13.03:223][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset"
-[2017.08.11-02.13.03:228][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset"
-[2017.08.11-02.13.03:234][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset"
-[2017.08.11-02.13.03:240][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset"
-[2017.08.11-02.13.03:245][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset"
-[2017.08.11-02.13.03:252][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset"
-[2017.08.11-02.13.03:256][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset"
-[2017.08.11-02.13.03:259][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset"
-[2017.08.11-02.13.03:262][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset"
-[2017.08.11-02.13.03:266][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset"
-[2017.08.11-02.13.03:266][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset"
-[2017.08.11-02.13.03:268][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset"
-[2017.08.11-02.13.03:268][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_M.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Textures/T_Door_M.uasset"
-[2017.08.11-02.13.03:269][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_N.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Textures/T_Door_N.uasset"
-[2017.08.11-02.13.03:270][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Dust_Particle_D.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Textures/T_Dust_Particle_D.uasset"
-[2017.08.11-02.13.03:272][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Explosion_SubUV.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Textures/T_Explosion_SubUV.uasset"
-[2017.08.11-02.13.03:273][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_SubUV.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Textures/T_Fire_SubUV.uasset"
-[2017.08.11-02.13.03:274][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset"
-[2017.08.11-02.13.03:275][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_M.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Textures/T_Frame_M.uasset"
-[2017.08.11-02.13.03:276][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_N.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Textures/T_Frame_N.uasset"
-[2017.08.11-02.13.03:276][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Gradinet_01.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Textures/T_Gradinet_01.uasset"
-[2017.08.11-02.13.03:283][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_D.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Textures/T_Ground_Grass_D.uasset"
-[2017.08.11-02.13.03:290][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_N.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Textures/T_Ground_Grass_N.uasset"
-[2017.08.11-02.13.03:295][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset"
-[2017.08.11-02.13.03:300][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset"
-[2017.08.11-02.13.03:309][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_ground_Moss_D.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Textures/T_ground_Moss_D.uasset"
-[2017.08.11-02.13.03:316][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Moss_N.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Textures/T_Ground_Moss_N.uasset"
-[2017.08.11-02.13.03:317][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_M.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Textures/T_Lamp_M.uasset"
-[2017.08.11-02.13.03:319][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_N.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Textures/T_Lamp_N.uasset"
-[2017.08.11-02.13.03:325][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_MacroVariation.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Textures/T_MacroVariation.uasset"
-[2017.08.11-02.13.03:329][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset"
-[2017.08.11-02.13.03:334][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Copper_D.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Textures/T_Metal_Copper_D.uasset"
-[2017.08.11-02.13.03:339][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_D.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Textures/T_Metal_Gold_D.uasset"
-[2017.08.11-02.13.03:340][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_N.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Textures/T_Metal_Gold_N.uasset"
-[2017.08.11-02.13.03:346][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_D.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Textures/T_Metal_Rust_D.uasset"
-[2017.08.11-02.13.03:350][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_N.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Textures/T_Metal_Rust_N.uasset"
-[2017.08.11-02.13.03:352][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_D.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Textures/T_Metal_Steel_D.uasset"
-[2017.08.11-02.13.03:355][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_N.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Textures/T_Metal_Steel_N.uasset"
-[2017.08.11-02.13.03:359][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset"
-[2017.08.11-02.13.03:361][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_M.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Textures/T_RockMesh_M.uasset"
-[2017.08.11-02.13.03:364][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_N.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Textures/T_RockMesh_N.uasset"
-[2017.08.11-02.13.03:369][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset"
-[2017.08.11-02.13.03:374][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset"
-[2017.08.11-02.13.03:379][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset"
-[2017.08.11-02.13.03:387][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset"
-[2017.08.11-02.13.03:391][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset"
-[2017.08.11-02.13.03:397][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_D.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Textures/T_Rock_Slate_D.uasset"
-[2017.08.11-02.13.03:402][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_N.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Textures/T_Rock_Slate_N.uasset"
-[2017.08.11-02.13.03:407][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset"
-[2017.08.11-02.13.03:408][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_M.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Textures/T_Shelf_M.uasset"
-[2017.08.11-02.13.03:410][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_N.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Textures/T_Shelf_N.uasset"
-[2017.08.11-02.13.03:411][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Single_Tile_N.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Textures/T_Single_Tile_N.uasset"
-[2017.08.11-02.13.03:412][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_SubUV.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Textures/T_Smoke_SubUV.uasset"
-[2017.08.11-02.13.03:413][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset"
-[2017.08.11-02.13.03:413][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Spark_Core.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Textures/T_Spark_Core.uasset"
-[2017.08.11-02.13.03:414][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_M.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Textures/T_Statue_M.uasset"
-[2017.08.11-02.13.03:415][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_N.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Textures/T_Statue_N.uasset"
-[2017.08.11-02.13.03:416][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_M.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Textures/T_TableRound_M.uasset"
-[2017.08.11-02.13.03:417][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_N.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Textures/T_TableRound_N.uasset"
-[2017.08.11-02.13.03:417][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_M.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Textures/T_Tech_Dot_M.uasset"
-[2017.08.11-02.13.03:418][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_N.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Textures/T_Tech_Dot_N.uasset"
-[2017.08.11-02.13.03:418][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset"
-[2017.08.11-02.13.03:419][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset"
-[2017.08.11-02.13.03:419][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_M.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Textures/T_Tech_Panel_M.uasset"
-[2017.08.11-02.13.03:420][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_N.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Textures/T_Tech_Panel_N.uasset"
-[2017.08.11-02.13.03:422][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_M.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Textures/T_Water_M.uasset"
-[2017.08.11-02.13.03:424][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_N.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Textures/T_Water_N.uasset"
-[2017.08.11-02.13.03:426][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset"
-[2017.08.11-02.13.03:429][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset"
-[2017.08.11-02.13.03:430][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset"
-[2017.08.11-02.13.03:435][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_D.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Textures/T_Wood_Oak_D.uasset"
-[2017.08.11-02.13.03:439][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_N.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Textures/T_Wood_Oak_N.uasset"
-[2017.08.11-02.13.03:446][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_D.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Textures/T_Wood_Pine_D.uasset"
-[2017.08.11-02.13.03:448][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_N.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Textures/T_Wood_Pine_N.uasset"
-[2017.08.11-02.13.03:452][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset"
-[2017.08.11-02.13.03:455][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset" to "I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset"
-[2017.08.11-02.13.03:518][  0]LogRenderer: Reallocating scene render targets to support 256x256 NumSamples 1 (Frame:1).
-[2017.08.11-02.13.03:584][  0]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Architecture/Floor_400x400" FILE="I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Architecture/Floor_400x400.uasset" SILENT=true
-[2017.08.11-02.13.03:596][  0]LogSavePackage: Save=9.83ms
-[2017.08.11-02.13.03:596][  0]LogSavePackage: Moving 'I:/gitRepo/Farrah/Bushikoden/Yokai/Saved/Floor_400x400EE858C7C48B002662EFB96975BECD504.tmp' to 'I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Architecture/Floor_400x400.uasset'
-[2017.08.11-02.13.03:597][  0]LogSavePackage:Display: Finished SavePackage I:/gitRepo/Farrah/Bushikoden/Yokai/Content/StarterContent/Architecture/Floor_400x400.uasset
-[2017.08.11-02.13.03:597][  0]LogFeaturePack:Warning: Inserted 1 feature packs
-[2017.08.11-02.13.03:598][  0]Cmd: MAP LOAD FILE="I:/gitRepo/Farrah/Bushikoden/Yokai/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2017.08.11-02.13.03:598][  0]LightingResults: New page: Lighting Build
-[2017.08.11-02.13.03:619][  0]MapCheck: New page: Map Check
-[2017.08.11-02.13.03:619][  0]LightingResults: New page: Lighting Build
-[2017.08.11-02.13.03:957][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
-[2017.08.11-02.13.03:969][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2017.08.11-02.13.03:981][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2017.08.11-02.13.04:015][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 33.737ms to complete.
-[2017.08.11-02.13.04:015][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 0.417
-[2017.08.11-02.13.04:138][  0]LogCollectionManager: Loaded 0 collections in 0.000821 seconds
-[2017.08.11-02.13.04:233][  0]LogFileCache: Scanning file cache for directory 'I:/gitRepo/Farrah/Bushikoden/Yokai/Saved/Collections/' took 0.01s
-[2017.08.11-02.13.04:233][  0]LogFileCache: Scanning file cache for directory 'I:/gitRepo/Farrah/Bushikoden/Yokai/Content/Developers/Char/Collections/' took 0.01s
-[2017.08.11-02.13.04:233][  0]LogFileCache: Scanning file cache for directory 'I:/gitRepo/Farrah/Bushikoden/Yokai/Content/Collections/' took 0.01s
-[2017.08.11-02.13.04:233][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
-[2017.08.11-02.13.04:240][  0]LogContentBrowser: Native class hierarchy populated in 0.0070 seconds. Added 2329 classes and 491 folders.
-[2017.08.11-02.13.04:273][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
-[2017.08.11-02.13.04:298][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0008 seconds. Added 0 classes and 0 folders.
-[2017.08.11-02.13.04:325][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
-[2017.08.11-02.13.04:391][  0]LogCrashTracker: Crashtracker disabled due to settings.
-[2017.08.11-02.13.04:394][  0]LogSlate: Took 0.000123 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2017.08.11-02.13.04:400][  0]LogSlate: Took 0.000297 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2017.08.11-02.13.04:407][  0]LogSlate: Took 0.000202 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2017.08.11-02.13.04:436][  0]LogRenderer: Reallocating scene render targets to support 1068x576 NumSamples 1 (Frame:1).
-[2017.08.11-02.13.04:471][  0]LogSlate: Took 0.000146 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2017.08.11-02.13.04:571][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
-[2017.08.11-02.13.04:617][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0010 seconds. Added 1 classes and 2 folders.
-[2017.08.11-02.13.04:618][  0]LogLoad: (Engine Initialization) Total time: 12.73 seconds
-[2017.08.11-02.13.04:618][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.10 seconds
-[2017.08.11-02.13.04:618][  0]LogExternalProfiler: Found external profiler: VSPerf
-[2017.08.11-02.13.04:618][  0]LogExternalProfiler: Using external profiler: VSPerf
-[2017.08.11-02.13.04:627][  0]LogOcInput: OculusInput pre-init called
-[2017.08.11-02.13.04:627][  0]LogHMD: Starting GearVRController plugin
-[2017.08.11-02.13.04:640][  0]LogAssetRegistry: Asset discovery search completed in 7.0235 seconds
-[2017.08.11-02.13.04:641][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
-[2017.08.11-02.13.04:641][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000032 seconds (updated 0 objects)
-[2017.08.11-02.13.04:692][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2017.08.11-02.13.11:519][332]SourceControl: Info On branch master
-[2017.08.11-02.13.11:519][332]SourceControl: Info Your branch is up-to-date with 'origin/master'.
-[2017.08.11-02.13.11:519][332]SourceControl: Info Untracked files:
-[2017.08.11-02.13.11:519][332]SourceControl: Info   (use "git add <file>..." to include in what will be committed)
-[2017.08.11-02.13.11:519][332]SourceControl: Info 	Yokai/
-[2017.08.11-02.13.11:519][332]SourceControl: Info nothing added to commit but untracked files present (use "git add" to track)
-[2017.08.11-02.13.14:414][474]SourceControl: Info fatal: E:/Epic Games/UE_4.16/Engine/Content/: 'E:/Epic Games/UE_4.16/Engine/Content/' is outside repository
-[2017.08.11-02.13.14:469][474]LogPackageName:Error: Illegal call to DoesPackageExist: 'I:/gitRepo/Farrah/Bushikoden/Yokai/Yokai.uproject' is not a standard unreal filename or a long path name. Reason: Path should be no less than 4 characters long.
-[2017.08.11-02.13.17:227][474]LogStats: FPlatformStackWalk::StackWalkAndDump -  2.758 s
-[2017.08.11-02.13.17:227][474]LogOutputDevice:Error: === Handled ensure: ===
-[2017.08.11-02.13.17:227][474]LogOutputDevice:Error: 
-[2017.08.11-02.13.17:227][474]LogOutputDevice:Error: Ensure condition failed: false [File:D:\Build\++UE4+Release-4.16+Compile\Sync\Engine\Source\Runtime\CoreUObject\Private\Misc\PackageName.cpp] [Line: 674]
-[2017.08.11-02.13.17:227][474]LogOutputDevice:Error: Illegal call to DoesPackageExist: 'I:/gitRepo/Farrah/Bushikoden/Yokai/Yokai.uproject' is not a standard unreal filename or a long path name. Reason: Path should be no less than 4 characters long.
-[2017.08.11-02.13.17:227][474]LogOutputDevice:Error: Stack: 
-[2017.08.11-02.13.17:227][474]LogOutputDevice:Error: UE4Editor-Core.dll!FWindowsPlatformStackWalk::StackWalkAndDump() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\core\private\windows\windowsplatformstackwalk.cpp:200]
-[2017.08.11-02.13.17:227][474]LogOutputDevice:Error: UE4Editor-Core.dll!FDebug::EnsureFailed() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\core\private\misc\assertionmacros.cpp:233]
-[2017.08.11-02.13.17:227][474]LogOutputDevice:Error: UE4Editor-Core.dll!FDebug::OptionallyLogFormattedEnsureMessageReturningFalse() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\core\private\misc\assertionmacros.cpp:360]
-[2017.08.11-02.13.17:227][474]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!FPackageName::DoesPackageExist() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\coreuobject\private\misc\packagename.cpp:674]
-[2017.08.11-02.13.17:227][474]LogOutputDevice:Error: UE4Editor-SourceControl.dll!SourceControlHelpers::PackageFilename_Internal() [d:\build\++ue4+release-4.16+compile\sync\engine\source\developer\sourcecontrol\private\sourcecontrolhelpers.cpp:56]
-[2017.08.11-02.13.17:227][474]LogOutputDevice:Error: UE4Editor-SourceControl.dll!SourceControlHelpers::PackageFilenames() [d:\build\++ue4+release-4.16+compile\sync\engine\source\developer\sourcecontrol\private\sourcecontrolhelpers.cpp:107]
-[2017.08.11-02.13.17:227][474]LogOutputDevice:Error: UE4Editor-SourceControlWindows.dll!FSourceControlWindows::PromptForCheckin() [d:\build\++ue4+release-4.16+compile\sync\engine\source\editor\sourcecontrolwindows\private\ssourcecontrolsubmit.cpp:616]
-[2017.08.11-02.13.17:227][474]LogOutputDevice:Error: UE4Editor-SourceControlWindows.dll!FSourceControlWindows::ChoosePackagesToCheckInCompleted() [d:\build\++ue4+release-4.16+compile\sync\engine\source\editor\sourcecontrolwindows\private\ssourcecontrolsubmit.cpp:475]
-[2017.08.11-02.13.17:227][474]LogOutputDevice:Error: UE4Editor-SourceControlWindows.dll!FSourceControlWindows::ChoosePackagesToCheckInCallback() [d:\build\++ue4+release-4.16+compile\sync\engine\source\editor\sourcecontrolwindows\private\ssourcecontrolsubmit.cpp:539]
-[2017.08.11-02.13.17:227][474]LogOutputDevice:Error: UE4Editor-SourceControlWindows.dll!TBaseStaticDelegateInstance<void __cdecl(TSharedRef<ISourceControlOperation,1> const & __ptr64,enum ECommandResult::Type)>::ExecuteIfSafe() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\core\public\delegates\delegateinstancesimpl.h:1027]
-[2017.08.11-02.13.17:227][474]LogOutputDevice:Error: UE4Editor-GitSourceControl.dll!FGitSourceControlProvider::Tick() [d:\build\++ue4+release-4.16+compile\sync\engine\plugins\developer\gitsourcecontrol\source\gitsourcecontrol\private\gitsourcecontrolprovider.cpp:273]
-[2017.08.11-02.13.17:227][474]LogOutputDevice:Error: UE4Editor-SourceControl.dll!FSourceControlModule::Tick() [d:\build\++ue4+release-4.16+compile\sync\engine\source\developer\sourcecontrol\private\sourcecontrolmodule.cpp:242]
-[2017.08.11-02.13.17:227][474]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!UEditorEngine::Tick() [d:\build\++ue4+release-4.16+compile\sync\engine\source\editor\unrealed\private\editorengine.cpp:1801]
-[2017.08.11-02.13.17:227][474]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!UUnrealEdEngine::Tick() [d:\build\++ue4+release-4.16+compile\sync\engine\source\editor\unrealed\private\unrealedengine.cpp:386]
-[2017.08.11-02.13.17:227][474]LogOutputDevice:Error: UE4Editor.exe!FEngineLoop::Tick() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\launch\private\launchengineloop.cpp:3119]
-[2017.08.11-02.13.17:227][474]LogOutputDevice:Error: UE4Editor.exe!GuardedMain() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\launch\private\launch.cpp:166]
-[2017.08.11-02.13.17:227][474]LogOutputDevice:Error: UE4Editor.exe!GuardedMainWrapper() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\launch\private\windows\launchwindows.cpp:134]
-[2017.08.11-02.13.17:227][474]LogOutputDevice:Error: UE4Editor.exe!WinMain() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\launch\private\windows\launchwindows.cpp:210]
-[2017.08.11-02.13.17:227][474]LogOutputDevice:Error: UE4Editor.exe!__scrt_common_main_seh() [f:\dd\vctools\crt\vcstartup\src\startup\exe_common.inl:253]
-[2017.08.11-02.13.17:227][474]LogOutputDevice:Error: KERNEL32.DLL!0x0000000083DB13D2
-[2017.08.11-02.13.17:227][474]LogOutputDevice:Error: ntdll.dll!0x0000000084C154E4
-[2017.08.11-02.13.17:227][474]LogOutputDevice:Error: 
-[2017.08.11-02.13.17:233][474]LogStats:                SubmitErrorReport -  0.000 s
-[2017.08.11-02.13.17:355][474]LogStats:                    SendNewReport -  0.123 s
-[2017.08.11-02.13.17:355][474]LogStats:             FDebug::EnsureFailed -  2.887 s
-[2017.08.11-02.13.29:223][474]LogSourceControl: FGitCheckInWorker: commit successful
-[2017.08.11-02.13.29:317][474]SourceControl: Info [master 4ae5b63] Inital Commit
-[2017.08.11-02.13.29:317][474]SourceControl: Info  2 files changed, 6 insertions(+)
-[2017.08.11-02.13.29:317][474]SourceControl: Info  create mode 100644 Yokai/Content/ThirdPersonBP/ThirdPersonOverview.uasset
-[2017.08.11-02.13.29:317][474]SourceControl: Info  create mode 100644 Yokai/Yokai.uproject
-[2017.08.11-02.13.29:327][474]SourceControl: Info Commited [master 4ae5b63] Inital Commit.
-[2017.08.11-02.13.30:320][518]LogSlate: Took 0.000145 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2017.08.11-02.13.30:467][518]LogSavePackage: Save=97.53ms
-[2017.08.11-02.13.30:467][518]LogSavePackage: Moving 'I:/gitRepo/Farrah/Bushikoden/Yokai/Saved/ThirdPersonExampleMap4510DCA04C84F8362164E9B9B89FDDCF.tmp' to 'I:/gitRepo/Farrah/Bushikoden/Yokai/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
-[2017.08.11-02.13.30:468][518]LogSavePackage:Display: Finished SavePackage I:/gitRepo/Farrah/Bushikoden/Yokai/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap
-[2017.08.11-02.13.30:699][518]LogSavePackage: Save=143.00ms
-[2017.08.11-02.13.30:699][518]LogSavePackage: Moving 'I:/gitRepo/Farrah/Bushikoden/Yokai/Saved/ThirdPersonExampleMap_BuiltData4A56746248FA070EE5A20097A9A73051.tmp' to 'I:/gitRepo/Farrah/Bushikoden/Yokai/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
-[2017.08.11-02.13.30:700][518]LogSavePackage:Display: Finished SavePackage I:/gitRepo/Farrah/Bushikoden/Yokai/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset
-[2017.08.11-02.13.32:620][613]SourceControl: Info fatal: E:/Epic Games/UE_4.16/Engine/Content/: 'E:/Epic Games/UE_4.16/Engine/Content/' is outside repository
+[2017.10.22-21.38.10:778][  0]LogInit: Selected Device Profile: [Windows]
+[2017.10.22-21.38.10:778][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.10.22-21.38.10:790][  0]LogInit: Computer: FRACTALR4
+[2017.10.22-21.38.10:790][  0]LogInit: User: Char
+[2017.10.22-21.38.10:790][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.10.22-21.38.10:790][  0]LogInit: High frequency timer resolution =3.903990 MHz
+[2017.10.22-21.38.10:790][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
+[2017.10.22-21.38.10:790][  0]LogMemory: Platform Memory Stats for Windows
+[2017.10.22-21.38.10:790][  0]LogMemory: Process Physical Memory: 270.70 MB used, 270.70 MB peak
+[2017.10.22-21.38.10:790][  0]LogMemory: Process Virtual Memory: 260.77 MB used, 260.77 MB peak
+[2017.10.22-21.38.10:790][  0]LogMemory: Physical Memory: 11941.54 MB used,  20767.74 MB free, 32709.27 MB total
+[2017.10.22-21.38.10:790][  0]LogMemory: Virtual Memory: 622.81 MB used,  20767.74 MB free, 134217728.00 MB total
+[2017.10.22-21.38.10:842][  0]LogInit: Using OS detected language (en-US).
+[2017.10.22-21.38.10:842][  0]LogInit: Using OS detected locale (en-CA).
+[2017.10.22-21.38.10:844][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2017.10.22-21.38.11:840][  0]LogD3D11RHI: D3D11 adapters:
+[2017.10.22-21.38.12:448][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970' (Feature Level 11_0)
+[2017.10.22-21.38.12:448][  0]LogD3D11RHI:       3944/0/16354 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.10.22-21.38.12:450][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.10.22-21.38.12:450][  0]LogD3D11RHI:       0/0/256 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.10.22-21.38.12:450][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.10.22-21.38.12:455][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.10.22-21.38.12:455][  0]LogD3D11RHI:     GPU DeviceId: 0x13c2 (for the marketing name, search the web for "GPU Device Id")
+[2017.10.22-21.38.12:455][  0]LogWindows: EnumDisplayDevices:
+[2017.10.22-21.38.12:455][  0]LogWindows:    0. 'NVIDIA GeForce GTX 970' (P:1 D:1)
+[2017.10.22-21.38.12:455][  0]LogWindows:    1. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2017.10.22-21.38.12:455][  0]LogWindows:    2. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2017.10.22-21.38.12:455][  0]LogWindows:    3. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2017.10.22-21.38.12:456][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.10.22-21.38.12:456][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970
+[2017.10.22-21.38.12:456][  0]LogD3D11RHI:   Driver Version: 382.05 (internal:22.21.13.8205, unified:382.05)
+[2017.10.22-21.38.12:456][  0]LogD3D11RHI:      Driver Date: 5-1-2017
+[2017.10.22-21.38.12:456][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.10.22-21.38.12:956][  0]LogD3D11RHI: Async texture creation enabled
+[2017.10.22-21.38.12:988][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2017.10.22-21.38.13:031][  0]LogShaderCompilers: Guid format shader working directory is 10 characters bigger than the processId version (I:/gitRepo/Farrah/Bushikoden/Yokai/Intermediate/Shaders/WorkingDirectory/11692/).
+[2017.10.22-21.38.13:031][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Char/AppData/Local/Temp/UnrealShaderWorkingDir/0699B1BD4D903FF02B9FF3A03AF8C31D/'.
+[2017.10.22-21.38.13:031][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.10.22-21.38.13:969][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.10.22-21.38.14:003][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.10.22-21.38.14:038][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.10.22-21.38.14:071][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.10.22-21.38.14:104][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.10.22-21.38.14:139][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.10.22-21.38.14:172][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.10.22-21.38.14:206][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.10.22-21.38.14:235][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.10.22-21.38.14:267][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.10.22-21.38.14:298][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.10.22-21.38.14:331][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.10.22-21.38.14:365][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.10.22-21.38.14:399][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.10.22-21.38.14:431][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.10.22-21.38.14:497][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.10.22-21.38.14:497][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.10.22-21.38.14:520][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.10.22-21.38.14:587][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.10.22-21.38.14:607][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.10.22-21.38.14:639][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.10.22-21.38.14:673][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.10.22-21.38.14:705][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.10.22-21.38.14:739][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.10.22-21.38.14:739][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.10.22-21.38.15:046][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.10.22-21.38.15:155][  0]LogDerivedDataCache: Loaded boot cache 0.11s 103MB C:/Users/Char/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.10.22-21.38.15:155][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Char/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2017.10.22-21.38.15:156][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file I:/gitRepo/Farrah/Bushikoden/Yokai/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.10.22-21.38.15:156][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.10.22-21.38.15:156][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file I:/gitRepo/Farrah/Bushikoden/Yokai/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.10.22-21.38.15:156][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.10.22-21.38.15:174][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.10.22-21.38.15:186][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Char/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.10.22-21.38.15:197][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.10.22-21.38.15:197][  0]LogSlate: Using Freetype 2.6.0
+[2017.10.22-21.38.15:197][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.10.22-21.38.15:197][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.10.22-21.38.15:497][  0]LogInit: Selected Device Profile: [Windows]
+[2017.10.22-21.38.15:577][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.10.22-21.38.15:711][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.10.22-21.38.15:738][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.10.22-21.38.15:765][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.10.22-21.38.15:765][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.10.22-21.38.15:765][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.10.22-21.38.16:248][  0]LogNetVersion: Yokai , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 124747973)
+[2017.10.22-21.38.16:300][  0]LogAssetRegistry: FAssetRegistry took 0.0257 seconds to start up
+[2017.10.22-21.38.16:563][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.249029 seconds
+[2017.10.22-21.38.16:569][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2017.10.22-21.38.16:569][  0]LogUObjectAllocator: 7260424 out of 0 bytes used by permanent object pool.
+[2017.10.22-21.38.16:569][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.10.22-21.38.16:607][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.10.22-21.38.18:353][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.10.22-21.38.18:379][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.10.22-21.38.18:704][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.10.22-21.38.18:946][  0]SourceControl: Info Source control is disabled
+[2017.10.22-21.38.19:874][  0]LogLinker:Warning: Can't find file '/Game/SideScrollerBP/SideScrollerOverview'
+[2017.10.22-21.38.19:874][  0]LogLinker:Warning: Can't find file '/Game/SideScrollerBP/SideScrollerOverview'
+[2017.10.22-21.38.19:875][  0]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/SideScrollerBP/SideScrollerOverview.SideScrollerOverview_C'
+[2017.10.22-21.38.20:107][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.10.22-21.38.20:456][  0]LogEngine: Initializing Engine...
+[2017.10.22-21.38.24:007][  0]LogHMD: SteamVR initialized.  Driver: lighthouse  Display: LHR-9E06D743
+[2017.10.22-21.38.24:184][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.10.22-21.38.24:184][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.10.22-21.38.24:256][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.10.22-21.38.24:273][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.22-21.38.24:281][  0]LogInit: FAudioDevice initialized.
+[2017.10.22-21.38.24:325][  0]LogDerivedDataCache: Saved boot cache 0.04s 103MB C:/Users/Char/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.10.22-21.38.24:337][  0]LogInit: Texture streaming: Enabled
+[2017.10.22-21.38.24:391][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.10.22-21.38.24:596][  0]LogInit: Transaction tracking system initialized
+[2017.10.22-21.38.24:762][  0]BlueprintLog: New page: Editor Load
+[2017.10.22-21.38.25:268][  0]LocalizationService: Info Localization service is disabled
+[2017.10.22-21.38.25:655][  0]LogConsoleResponse:Display: 
+[2017.10.22-21.38.25:828][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.10.22-21.38.25:828][  0]LogCook:Display: Mobile HDR setting 1
+[2017.10.22-21.38.26:364][  0]LogFileCache: Scanning file cache for directory 'I:/gitRepo/Farrah/Bushikoden/Yokai/Content/' took 0.01s
+[2017.10.22-21.38.26:610][  0]Cmd: MAP LOAD FILE="I:/gitRepo/Farrah/Bushikoden/Yokai/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.10.22-21.38.26:610][  0]LightingResults: New page: Lighting Build
+[2017.10.22-21.38.26:633][  0]MapCheck: New page: Map Check
+[2017.10.22-21.38.26:633][  0]LightingResults: New page: Lighting Build
+[2017.10.22-21.38.28:224][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.10.22-21.38.28:656][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.10.22-21.38.28:718][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.10.22-21.38.28:751][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 32.724ms to complete.
+[2017.10.22-21.38.28:751][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 2.142
+[2017.10.22-21.38.29:551][  0]LogCollectionManager: Loaded 0 collections in 0.000947 seconds
+[2017.10.22-21.38.29:695][  0]LogFileCache: Scanning file cache for directory 'I:/gitRepo/Farrah/Bushikoden/Yokai/Saved/Collections/' took 0.01s
+[2017.10.22-21.38.29:695][  0]LogFileCache: Scanning file cache for directory 'I:/gitRepo/Farrah/Bushikoden/Yokai/Content/Developers/Char/Collections/' took 0.01s
+[2017.10.22-21.38.29:695][  0]LogFileCache: Scanning file cache for directory 'I:/gitRepo/Farrah/Bushikoden/Yokai/Content/Collections/' took 0.01s
+[2017.10.22-21.38.29:695][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2017.10.22-21.38.29:708][  0]LogContentBrowser: Native class hierarchy populated in 0.0103 seconds. Added 2329 classes and 491 folders.
+[2017.10.22-21.38.29:795][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2017.10.22-21.38.30:570][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.10.22-21.38.30:626][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2017.10.22-21.38.31:311][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.10.22-21.38.31:392][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.10.22-21.38.31:445][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2017.10.22-21.38.31:445][  0]LogLoad: (Engine Initialization) Total time: 28.74 seconds
+[2017.10.22-21.38.31:445][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.32 seconds
+[2017.10.22-21.38.31:445][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.10.22-21.38.31:445][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.10.22-21.38.31:785][  0]LogOcInput: OculusInput pre-init called
+[2017.10.22-21.38.31:785][  0]LogHMD: Starting GearVRController plugin
+[2017.10.22-21.38.31:910][  0]SourceControl: Info On branch master
+[2017.10.22-21.38.31:910][  0]SourceControl: Info Your branch is ahead of 'origin/master' by 3 commits.
+[2017.10.22-21.38.31:910][  0]SourceControl: Info   (use "git push" to publish your local commits)
+[2017.10.22-21.38.31:910][  0]SourceControl: Info Changes to be committed:
+[2017.10.22-21.38.31:910][  0]SourceControl: Info   (use "git reset HEAD <file>..." to unstage)
+[2017.10.22-21.38.31:910][  0]SourceControl: Info 	new file:   Yokai/Content/Character_Blueprint.uasset
+[2017.10.22-21.38.31:910][  0]SourceControl: Info Changes not staged for commit:
+[2017.10.22-21.38.31:910][  0]SourceControl: Info   (use "git add/rm <file>..." to update what will be committed)
+[2017.10.22-21.38.31:910][  0]SourceControl: Info   (use "git checkout -- <file>..." to discard changes in working directory)
+[2017.10.22-21.38.31:910][  0]SourceControl: Info 	modified:   Yokai/Config/DefaultEditor.ini
+[2017.10.22-21.38.31:910][  0]SourceControl: Info 	modified:   Yokai/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset
+[2017.10.22-21.38.31:910][  0]SourceControl: Info 	modified:   Yokai/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset
+[2017.10.22-21.38.31:910][  0]SourceControl: Info 	modified:   Yokai/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap
+[2017.10.22-21.38.31:910][  0]SourceControl: Info 	modified:   Yokai/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset
+[2017.10.22-21.38.31:910][  0]SourceControl: Info 	modified:   Yokai/Intermediate/CachedAssetRegistry.bin
+[2017.10.22-21.38.31:910][  0]SourceControl: Info 	modified:   Yokai/Intermediate/Config/CoalescedSourceConfigs/Engine.ini
+[2017.10.22-21.38.31:910][  0]SourceControl: Info 	modified:   Yokai/Intermediate/Config/CoalescedSourceConfigs/Input.ini
+[2017.10.22-21.38.31:910][  0]SourceControl: Info 	modified:   Yokai/Saved/Autosaves/PackageRestoreData.json
+[2017.10.22-21.38.31:910][  0]SourceControl: Info 	deleted:    Yokai/Saved/Config/CrashReportClient/UE4CC-Windows-2058C71A432E82A6C4F8FD9A6431F220/CrashReportClient.ini
+[2017.10.22-21.38.31:910][  0]SourceControl: Info 	modified:   Yokai/Saved/Config/Windows/Editor.ini
+[2017.10.22-21.38.31:910][  0]SourceControl: Info 	modified:   Yokai/Saved/Config/Windows/EditorPerProjectUserSettings.ini
+[2017.10.22-21.38.31:910][  0]SourceControl: Info 	modified:   Yokai/Saved/Config/Windows/Engine.ini
+[2017.10.22-21.38.31:910][  0]SourceControl: Info 	modified:   Yokai/Saved/Config/WorldState/3393405467.json
+[2017.10.22-21.38.31:910][  0]SourceControl: Info 	modified:   Yokai/Saved/Logs/Yokai.log
+[2017.10.22-21.38.31:910][  0]SourceControl: Info Untracked files:
+[2017.10.22-21.38.31:910][  0]SourceControl: Info   (use "git add <file>..." to include in what will be committed)
+[2017.10.22-21.38.31:910][  0]SourceControl: Info 	Yokai/Intermediate/AssetRegistryCache/311563bb.bin
+[2017.10.22-21.38.31:910][  0]SourceControl: Info 	Yokai/Intermediate/AssetRegistryCache/c90e3f55.bin
+[2017.10.22-21.38.31:910][  0]SourceControl: Info 	Yokai/Saved/AutoScreenshot.png
+[2017.10.22-21.38.31:910][  0]SourceControl: Info 	Yokai/Saved/Autosaves/Game/
+[2017.10.22-21.38.31:910][  0]SourceControl: Info 	Yokai/Saved/Backup/Attack1Montage_2017-08-24-02-07-24.uasset
+[2017.10.22-21.38.31:910][  0]SourceControl: Info 	Yokai/Saved/Backup/Attack1Montage_2017-08-27-15-12-36.uasset
+[2017.10.22-21.38.31:910][  0]SourceControl: Info 	Yokai/Saved/Backup/Attack1Montage_2017-08-28-02-10-27.uasset
+[2017.10.22-21.38.31:910][  0]SourceControl: Info 	Yokai/Saved/Backup/AttackWalkMontage_2017-08-27-15-26-58.uasset
+[2017.10.22-21.38.31:910][  0]SourceControl: Info 	Yokai/Saved/Backup/AttackWalkMontage_2017-08-27-15-36-58.uasset
+[2017.10.22-21.38.31:910][  0]SourceControl: Info 	Yokai/Saved/Backup/AttackWalkMontage_2017-10-07-11-57-54.uasset
+[2017.10.22-21.38.31:910][  0]SourceControl: Info 	Yokai/Saved/Backup/ThirdPersonCharacter_2017-08-24-01-53-03.uasset
+[2017.10.22-21.38.31:910][  0]SourceControl: Info 	Yokai/Saved/Backup/ThirdPersonCharacter_2017-08-27-15-01-03.uasset
+[2017.10.22-21.38.31:910][  0]SourceControl: Info 	Yokai/Saved/Backup/ThirdPersonCharacter_2017-08-27-15-12-36.uasset
+[2017.10.22-21.38.31:910][  0]SourceControl: Info 	Yokai/Saved/Backup/ThirdPersonCharacter_2017-08-27-15-26-58.uasset
+[2017.10.22-21.38.31:910][  0]SourceControl: Info 	Yokai/Saved/Backup/ThirdPersonCharacter_2017-08-27-19-57-59.uasset
+[2017.10.22-21.38.31:910][  0]SourceControl: Info 	Yokai/Saved/Backup/ThirdPersonCharacter_2017-08-28-02-10-27.uasset
+[2017.10.22-21.38.31:910][  0]SourceControl: Info 	Yokai/Saved/Backup/ThirdPersonCharacter_2017-09-25-12-03-15.uasset
+[2017.10.22-21.38.31:910][  0]SourceControl: Info 	Yokai/Saved/Backup/ThirdPersonCharacter_2017-09-25-12-30-26.uasset
+[2017.10.22-21.38.31:910][  0]SourceControl: Info 	Yokai/Saved/Backup/ThirdPersonCharacter_2017-10-13-21-31-31.uasset
+[2017.10.22-21.38.31:910][  0]SourceControl: Info 	Yokai/Saved/Backup/ThirdPersonCharacter_2017-10-13-21-52-39.uasset
+[2017.10.22-21.38.31:910][  0]SourceControl: Info 	Yokai/Saved/Backup/ThirdPersonCharacter_2017-10-13-22-03-16.uasset
+[2017.10.22-21.38.31:910][  0]SourceControl: Info 	Yokai/Saved/Backup/ThirdPersonCharacter_2017-10-13-22-13-56.uasset
+[2017.10.22-21.38.31:910][  0]SourceControl: Info 	Yokai/Saved/Backup/ThirdPersonExampleMap_2017-08-24-01-51-12.umap
+[2017.10.22-21.38.31:910][  0]SourceControl: Info 	Yokai/Saved/Backup/ThirdPersonExampleMap_2017-08-24-02-07-24.umap
+[2017.10.22-21.38.31:910][  0]SourceControl: Info 	Yokai/Saved/Backup/ThirdPersonExampleMap_2017-08-27-14-47-59.umap
+[2017.10.22-21.38.31:910][  0]SourceControl: Info 	Yokai/Saved/Backup/ThirdPersonExampleMap_2017-08-27-15-01-03.umap
+[2017.10.22-21.38.31:910][  0]SourceControl: Info 	Yokai/Saved/Backup/ThirdPersonExampleMap_2017-08-27-15-12-36.umap
+[2017.10.22-21.38.31:910][  0]SourceControl: Info 	Yokai/Saved/Backup/ThirdPersonExampleMap_2017-08-27-15-26-57.umap
+[2017.10.22-21.38.31:910][  0]SourceControl: Info 	Yokai/Saved/Backup/ThirdPersonExampleMap_2017-08-27-19-57-59.umap
+[2017.10.22-21.38.31:910][  0]SourceControl: Info 	Yokai/Saved/Backup/ThirdPersonExampleMap_2017-08-28-02-10-28.umap
+[2017.10.22-21.38.31:910][  0]SourceControl: Info 	Yokai/Saved/Backup/ThirdPersonExampleMap_2017-09-25-12-03-15.umap
+[2017.10.22-21.38.31:910][  0]SourceControl: Info 	Yokai/Saved/Backup/ThirdPersonExampleMap_2017-09-25-12-30-26.umap
+[2017.10.22-21.38.31:910][  0]SourceControl: Info 	Yokai/Saved/Backup/ThirdPersonExampleMap_2017-10-12-01-41-10.umap
+[2017.10.22-21.38.31:910][  0]SourceControl: Info 	Yokai/Saved/Backup/ThirdPersonExampleMap_2017-10-12-02-16-54.umap
+[2017.10.22-21.38.31:910][  0]SourceControl: Info 	Yokai/Saved/Backup/ThirdPersonExampleMap_2017-10-13-21-31-31.umap
+[2017.10.22-21.38.31:910][  0]SourceControl: Info 	Yokai/Saved/Backup/ThirdPersonExampleMap_2017-10-13-21-52-39.umap
+[2017.10.22-21.38.31:910][  0]SourceControl: Info 	Yokai/Saved/Backup/ThirdPersonExampleMap_2017-10-13-22-03-16.umap
+[2017.10.22-21.38.31:910][  0]SourceControl: Info 	Yokai/Saved/Backup/ThirdPersonExampleMap_2017-10-13-22-13-48.umap
+[2017.10.22-21.38.31:910][  0]SourceControl: Info 	Yokai/Saved/Backup/ThirdPersonExampleMap_BuiltData_2017-08-24-01-51-13.uasset
+[2017.10.22-21.38.31:910][  0]SourceControl: Info 	Yokai/Saved/Backup/ThirdPersonExampleMap_BuiltData_2017-09-25-12-06-25.uasset
+[2017.10.22-21.38.31:910][  0]SourceControl: Info 	Yokai/Saved/Backup/ThirdPersonExampleMap_BuiltData_2017-09-25-12-33-40.uasset
+[2017.10.22-21.38.31:910][  0]SourceControl: Info 	Yokai/Saved/Backup/ThirdPersonExampleMap_BuiltData_2017-10-12-02-16-54.uasset
+[2017.10.22-21.38.31:910][  0]SourceControl: Info 	Yokai/Saved/Backup/ThirdPersonExampleMap_BuiltData_2017-10-13-22-13-49.uasset
+[2017.10.22-21.38.31:910][  0]SourceControl: Info 	Yokai/Saved/Backup/ThirdPerson_AnimBP_2017-08-24-01-57-52.uasset
+[2017.10.22-21.38.31:910][  0]SourceControl: Info 	Yokai/Saved/Backup/ThirdPerson_AnimBP_2017-08-24-02-07-24.uasset
+[2017.10.22-21.38.31:910][  0]SourceControl: Info 	Yokai/Saved/Backup/ThirdPerson_AnimBP_2017-08-27-15-26-57.uasset
+[2017.10.22-21.38.31:910][  0]SourceControl: Info 	Yokai/Saved/Backup/ThirdPerson_AnimBP_2017-08-27-15-36-58.uasset
+[2017.10.22-21.38.31:910][  0]SourceControl: Info 	Yokai/Saved/Backup/ThirdPerson_AnimBP_2017-08-27-15-46-58.uasset
+[2017.10.22-21.38.31:910][  0]SourceControl: Info 	Yokai/Saved/Backup/ThirdPerson_AnimBP_2017-08-27-19-57-59.uasset
+[2017.10.22-21.38.31:910][  0]SourceControl: Info 	Yokai/Saved/Backup/ThirdPerson_AnimBP_2017-08-28-02-10-27.uasset
+[2017.10.22-21.38.31:910][  0]SourceControl: Info 	Yokai/Saved/Backup/ThirdPerson_AnimBP_2017-09-25-12-08-20.uasset
+[2017.10.22-21.38.31:910][  0]SourceControl: Info 	Yokai/Saved/Backup/ThirdPerson_AnimBP_2017-09-25-12-17-51.uasset
+[2017.10.22-21.38.31:910][  0]SourceControl: Info 	Yokai/Saved/Backup/ThirdPerson_AnimBP_2017-09-25-12-30-26.uasset
+[2017.10.22-21.38.31:910][  0]SourceControl: Info 	Yokai/Saved/Backup/ThirdPerson_AnimBP_2017-10-07-11-33-16.uasset
+[2017.10.22-21.38.31:910][  0]SourceControl: Info 	Yokai/Saved/Backup/ThirdPerson_AnimBP_2017-10-07-11-45-52.uasset
+[2017.10.22-21.38.31:910][  0]SourceControl: Info 	Yokai/Saved/Backup/ThirdPerson_AnimBP_2017-10-07-11-57-54.uasset
+[2017.10.22-21.38.31:910][  0]SourceControl: Info 	Yokai/Saved/Backup/ThirdPerson_AnimBP_2017-10-12-01-41-10.uasset
+[2017.10.22-21.38.31:910][  0]SourceControl: Info 	Yokai/Saved/Backup/ThirdPerson_AnimBP_2017-10-12-02-23-56.uasset
+[2017.10.22-21.38.31:910][  0]SourceControl: Info 	Yokai/Saved/Config/CrashReportClient/UE4CC-Windows-DB4D91EA4E45B141772CE3863D701CF5/
+[2017.10.22-21.38.31:910][  0]SourceControl: Info 	Yokai/Saved/Config/Windows/SourceControlSettings.ini
+[2017.10.22-21.38.31:910][  0]SourceControl: Info 	Yokai/Saved/Crashes/UE4CC-Windows-DD6EFECA49181BEDDE0919B882E27039_0000/
+[2017.10.22-21.38.31:910][  0]SourceControl: Info 	Yokai/Saved/HardwareSurvey/
+[2017.10.22-21.38.31:910][  0]SourceControl: Info 	Yokai/Saved/Logs/Yokai-backup-2017.10.22-15.38.10.log
+[2017.10.22-21.38.31:911][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.10.22-21.38.31:912][  0]LogSlate: Took 0.000161 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.10.22-21.38.31:913][  0]LogSlate: Took 0.000099 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.10.22-21.38.31:944][  0]LogSlate: Took 0.007902 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.10.22-21.38.32:566][  0]LogRenderer: Reallocating scene render targets to support 764x424 NumSamples 1 (Frame:1).
+[2017.10.22-21.38.32:566][  0]LogSlate: Took 0.012250 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.10.22-21.38.33:350][  2]LogAssetRegistry: Asset discovery search completed in 17.0719 seconds
+[2017.10.22-21.38.33:352][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.10.22-21.38.33:352][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000046 seconds (updated 0 objects)
+[2017.10.22-21.38.33:365][  2]LogSlate: Took 0.000534 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.10.22-21.50.16:814][346]LogRenderer: Reallocating scene render targets to support 1068x576 NumSamples 1 (Frame:1272).
+[2017.10.22-22.01.34:443][652]LogTemp: Repeting last play command: Selected Viewport
+[2017.10.22-22.01.34:781][652]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.10.22-22.01.34:789][652]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.22-22.01.34:829][652]PIE: New page: PIE session: ThirdPersonExampleMap (Oct 22, 2017, 10:01:34 AM)
+[2017.10.22-22.01.34:841][652]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.10.22-22.01.34:945][652]LogPlayLevel: PIE: StaticDuplicateObject took: (0.104457s)
+[2017.10.22-22.01.34:947][652]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.10.22-22.01.34:947][652]LogPlayLevel: PIE: World Init took: (0.001623s)
+[2017.10.22-22.01.34:963][652]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.122146s)
+[2017.10.22-22.01.35:038][652]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.22-22.01.35:046][652]LogInit: FAudioDevice initialized.
+[2017.10.22-22.01.35:168][652]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.10.22-22.01.35:259][652]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2017.10.22-16.01.35
+[2017.10.22-22.01.35:405][652]LogWorld: Bringing up level for play took: 0.139678
+[2017.10.22-22.01.35:465][652]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0007 seconds. Added 11 classes and 0 folders.
+[2017.10.22-22.01.35:476][652]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.518
+[2017.10.22-22.01.35:476][652]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.10.22-22.01.35:667][653]LogRenderer: Reallocating scene render targets to support 1492x804 NumSamples 1 (Frame:1).
+[2017.10.22-22.01.35:689][653]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Attack1
+[2017.10.22-22.01.54:648][539]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Attack1
+[2017.10.22-22.01.55:604][636]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Attack1
+[2017.10.22-22.01.55:928][665]LogBlueprintUserMessages: [ThirdPerson_AnimBP_C_1] AnimNofity_punch1
+[2017.10.22-22.01.55:947][665]LogBlueprintUserMessages: [ThirdPerson_AnimBP_C_1] X=-783.623 Y=328.839 Z=225.707
+[2017.10.22-22.01.56:463][720]LogBlueprintUserMessages: [ThirdPerson_AnimBP_C_1] AnimNofity_punch1
+[2017.10.22-22.01.56:463][720]LogBlueprintUserMessages: [ThirdPerson_AnimBP_C_1] X=-783.905 Y=329.015 Z=225.683
+[2017.10.22-22.02.00:614][140]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Attack1
+[2017.10.22-22.02.00:938][174]LogBlueprintUserMessages: [ThirdPerson_AnimBP_C_1] AnimNofity_punch1
+[2017.10.22-22.02.00:938][174]LogBlueprintUserMessages: [ThirdPerson_AnimBP_C_1] X=-932.062 Y=446.878 Z=225.705
+[2017.10.22-22.02.01:472][225]LogBlueprintUserMessages: [ThirdPerson_AnimBP_C_1] AnimNofity_punch1
+[2017.10.22-22.02.01:472][225]LogBlueprintUserMessages: [ThirdPerson_AnimBP_C_1] X=-931.902 Y=447.385 Z=225.685
+[2017.10.22-22.02.02:037][287]LogBlueprintUserMessages: [ThirdPerson_AnimBP_C_1] AnimNofity_punch1
+[2017.10.22-22.02.02:037][287]LogBlueprintUserMessages: [ThirdPerson_AnimBP_C_1] X=-932.044 Y=446.933 Z=225.701
+[2017.10.22-22.02.02:569][343]LogBlueprintUserMessages: [ThirdPerson_AnimBP_C_1] AnimNofity_punch1
+[2017.10.22-22.02.02:569][343]LogBlueprintUserMessages: [ThirdPerson_AnimBP_C_1] X=-931.867 Y=447.596 Z=225.701
+[2017.10.22-22.02.03:107][394]LogBlueprintUserMessages: [ThirdPerson_AnimBP_C_1] AnimNofity_punch1
+[2017.10.22-22.02.03:107][394]LogBlueprintUserMessages: [ThirdPerson_AnimBP_C_1] X=-931.973 Y=447.147 Z=225.689
+[2017.10.22-22.02.03:654][452]LogBlueprintUserMessages: [ThirdPerson_AnimBP_C_1] AnimNofity_punch1
+[2017.10.22-22.02.03:654][452]LogBlueprintUserMessages: [ThirdPerson_AnimBP_C_1] X=-932.047 Y=446.923 Z=225.702
+[2017.10.22-22.02.04:195][509]LogBlueprintUserMessages: [ThirdPerson_AnimBP_C_1] AnimNofity_punch1
+[2017.10.22-22.02.04:195][509]LogBlueprintUserMessages: [ThirdPerson_AnimBP_C_1] X=-932.098 Y=446.774 Z=225.713
+[2017.10.22-22.02.04:755][560]LogBlueprintUserMessages: [ThirdPerson_AnimBP_C_1] AnimNofity_punch1
+[2017.10.22-22.02.04:755][560]LogBlueprintUserMessages: [ThirdPerson_AnimBP_C_1] X=-931.893 Y=447.436 Z=225.688
+[2017.10.22-22.02.05:288][612]LogBlueprintUserMessages: [ThirdPerson_AnimBP_C_1] AnimNofity_punch1
+[2017.10.22-22.02.05:288][612]LogBlueprintUserMessages: [ThirdPerson_AnimBP_C_1] X=-932.066 Y=446.867 Z=225.706
+[2017.10.22-22.02.05:830][669]LogBlueprintUserMessages: [ThirdPerson_AnimBP_C_1] AnimNofity_punch1
+[2017.10.22-22.02.05:830][669]LogBlueprintUserMessages: [ThirdPerson_AnimBP_C_1] X=-932.110 Y=446.739 Z=225.716
+[2017.10.22-22.02.06:371][720]LogBlueprintUserMessages: [ThirdPerson_AnimBP_C_1] AnimNofity_punch1
+[2017.10.22-22.02.06:371][720]LogBlueprintUserMessages: [ThirdPerson_AnimBP_C_1] X=-932.060 Y=446.885 Z=225.704
+[2017.10.22-22.02.06:921][780]LogBlueprintUserMessages: [ThirdPerson_AnimBP_C_1] AnimNofity_punch1
+[2017.10.22-22.02.06:921][780]LogBlueprintUserMessages: [ThirdPerson_AnimBP_C_1] X=-932.086 Y=446.807 Z=225.710
+[2017.10.22-22.02.07:454][836]LogBlueprintUserMessages: [ThirdPerson_AnimBP_C_1] AnimNofity_punch1
+[2017.10.22-22.02.07:454][836]LogBlueprintUserMessages: [ThirdPerson_AnimBP_C_1] X=-931.829 Y=447.824 Z=225.719
+[2017.10.22-22.02.07:995][887]LogBlueprintUserMessages: [ThirdPerson_AnimBP_C_1] AnimNofity_punch1
+[2017.10.22-22.02.07:995][887]LogBlueprintUserMessages: [ThirdPerson_AnimBP_C_1] X=-932.064 Y=446.872 Z=225.705
+[2017.10.22-22.02.08:539][944]LogBlueprintUserMessages: [ThirdPerson_AnimBP_C_1] AnimNofity_punch1
+[2017.10.22-22.02.08:539][944]LogBlueprintUserMessages: [ThirdPerson_AnimBP_C_1] X=-932.129 Y=446.682 Z=225.722
+[2017.10.22-22.02.09:079][  1]LogBlueprintUserMessages: [ThirdPerson_AnimBP_C_1] AnimNofity_punch1
+[2017.10.22-22.02.09:079][  1]LogBlueprintUserMessages: [ThirdPerson_AnimBP_C_1] X=-932.030 Y=446.974 Z=225.698
+[2017.10.22-22.02.09:637][ 53]LogBlueprintUserMessages: [ThirdPerson_AnimBP_C_1] AnimNofity_punch1
+[2017.10.22-22.02.09:637][ 53]LogBlueprintUserMessages: [ThirdPerson_AnimBP_C_1] X=-931.849 Y=447.706 Z=225.710
+[2017.10.22-22.02.10:172][102]LogBlueprintUserMessages: [ThirdPerson_AnimBP_C_1] AnimNofity_punch1
+[2017.10.22-22.02.10:172][102]LogBlueprintUserMessages: [ThirdPerson_AnimBP_C_1] X=-932.095 Y=446.782 Z=225.712
+[2017.10.22-22.02.10:713][159]LogBlueprintUserMessages: [ThirdPerson_AnimBP_C_1] AnimNofity_punch1
+[2017.10.22-22.02.10:713][159]LogBlueprintUserMessages: [ThirdPerson_AnimBP_C_1] X=-932.090 Y=446.796 Z=225.711
+[2017.10.22-22.02.11:256][213]LogBlueprintUserMessages: [ThirdPerson_AnimBP_C_1] AnimNofity_punch1
+[2017.10.22-22.02.11:256][213]LogBlueprintUserMessages: [ThirdPerson_AnimBP_C_1] X=-932.120 Y=446.709 Z=225.719
+[2017.10.22-22.02.11:813][266]LogBlueprintUserMessages: [ThirdPerson_AnimBP_C_1] AnimNofity_punch1
+[2017.10.22-22.02.11:813][266]LogBlueprintUserMessages: [ThirdPerson_AnimBP_C_1] X=-932.110 Y=446.739 Z=225.716
+[2017.10.22-22.02.12:357][323]LogBlueprintUserMessages: [ThirdPerson_AnimBP_C_1] AnimNofity_punch1
+[2017.10.22-22.02.12:357][323]LogBlueprintUserMessages: [ThirdPerson_AnimBP_C_1] X=-932.087 Y=446.806 Z=225.710
+[2017.10.22-22.02.12:896][377]LogBlueprintUserMessages: [ThirdPerson_AnimBP_C_1] AnimNofity_punch1
+[2017.10.22-22.02.12:896][377]LogBlueprintUserMessages: [ThirdPerson_AnimBP_C_1] X=-932.056 Y=446.896 Z=225.703
+[2017.10.22-22.02.13:438][432]LogBlueprintUserMessages: [ThirdPerson_AnimBP_C_1] AnimNofity_punch1
+[2017.10.22-22.02.13:438][432]LogBlueprintUserMessages: [ThirdPerson_AnimBP_C_1] X=-932.100 Y=446.766 Z=225.714
+[2017.10.22-22.02.13:988][490]LogBlueprintUserMessages: [ThirdPerson_AnimBP_C_1] AnimNofity_punch1
+[2017.10.22-22.02.13:988][490]LogBlueprintUserMessages: [ThirdPerson_AnimBP_C_1] X=-932.077 Y=446.835 Z=225.708
+[2017.10.22-22.02.14:521][545]LogBlueprintUserMessages: [ThirdPerson_AnimBP_C_1] AnimNofity_punch1
+[2017.10.22-22.02.14:521][545]LogBlueprintUserMessages: [ThirdPerson_AnimBP_C_1] X=-931.671 Y=448.775 Z=225.807
+[2017.10.22-22.02.15:063][596]LogBlueprintUserMessages: [ThirdPerson_AnimBP_C_1] AnimNofity_punch1
+[2017.10.22-22.02.15:063][596]LogBlueprintUserMessages: [ThirdPerson_AnimBP_C_1] X=-932.080 Y=446.824 Z=225.709
+[2017.10.22-22.02.15:605][650]LogBlueprintUserMessages: [ThirdPerson_AnimBP_C_1] AnimNofity_punch1
+[2017.10.22-22.02.15:605][650]LogBlueprintUserMessages: [ThirdPerson_AnimBP_C_1] X=-932.104 Y=446.756 Z=225.715
+[2017.10.22-22.02.16:147][707]LogBlueprintUserMessages: [ThirdPerson_AnimBP_C_1] AnimNofity_punch1
+[2017.10.22-22.02.16:147][707]LogBlueprintUserMessages: [ThirdPerson_AnimBP_C_1] X=-932.110 Y=446.737 Z=225.717
+[2017.10.22-22.02.40:982][218]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Attack1
+[2017.10.22-22.02.41:306][252]LogBlueprintUserMessages: [ThirdPerson_AnimBP_C_1] AnimNofity_punch1
+[2017.10.22-22.02.41:306][252]LogBlueprintUserMessages: [ThirdPerson_AnimBP_C_1] X=-553.186 Y=271.888 Z=225.706
+[2017.10.22-22.02.41:337][252]LogBlueprintUserMessages: [ThirdPerson_AnimBP_C_1] Collision detected: Character_Blueprint
+[2017.10.22-22.02.41:338][252]LogBlueprintUserMessages: [Character_Blueprint] Ouch! Took damage:10.0
+[2017.10.22-22.02.41:856][306]LogBlueprintUserMessages: [ThirdPerson_AnimBP_C_1] AnimNofity_punch1
+[2017.10.22-22.02.41:856][306]LogBlueprintUserMessages: [ThirdPerson_AnimBP_C_1] X=-553.226 Y=271.801 Z=225.716
+[2017.10.22-22.02.41:856][306]LogBlueprintUserMessages: [ThirdPerson_AnimBP_C_1] Collision detected: Character_Blueprint
+[2017.10.22-22.02.41:856][306]LogBlueprintUserMessages: [Character_Blueprint] Ouch! Took damage:10.0
+[2017.10.22-22.02.42:383][344]LogBlueprintUserMessages: [ThirdPerson_AnimBP_C_1] AnimNofity_punch1
+[2017.10.22-22.02.42:384][344]LogBlueprintUserMessages: [ThirdPerson_AnimBP_C_1] X=-552.973 Y=272.324 Z=225.692
+[2017.10.22-22.02.42:384][344]LogBlueprintUserMessages: [ThirdPerson_AnimBP_C_1] Collision detected: Character_Blueprint
+[2017.10.22-22.02.42:384][344]LogBlueprintUserMessages: [Character_Blueprint] Ouch! Took damage:10.0
+[2017.10.22-22.02.42:931][403]LogBlueprintUserMessages: [ThirdPerson_AnimBP_C_1] AnimNofity_punch1
+[2017.10.22-22.02.42:931][403]LogBlueprintUserMessages: [ThirdPerson_AnimBP_C_1] X=-553.160 Y=271.946 Z=225.700
+[2017.10.22-22.02.42:931][403]LogBlueprintUserMessages: [ThirdPerson_AnimBP_C_1] Collision detected: Character_Blueprint
+[2017.10.22-22.02.42:931][403]LogBlueprintUserMessages: [Character_Blueprint] Ouch! Took damage:10.0
+[2017.10.22-22.02.43:472][460]LogBlueprintUserMessages: [ThirdPerson_AnimBP_C_1] AnimNofity_punch1
+[2017.10.22-22.02.43:473][460]LogBlueprintUserMessages: [ThirdPerson_AnimBP_C_1] X=-553.163 Y=271.939 Z=225.700
+[2017.10.22-22.02.43:473][460]LogBlueprintUserMessages: [ThirdPerson_AnimBP_C_1] Collision detected: Character_Blueprint
+[2017.10.22-22.02.43:473][460]LogBlueprintUserMessages: [Character_Blueprint] Ouch! Took damage:10.0
+[2017.10.22-22.02.44:041][512]LogBlueprintUserMessages: [ThirdPerson_AnimBP_C_1] AnimNofity_punch1
+[2017.10.22-22.02.44:041][512]LogBlueprintUserMessages: [ThirdPerson_AnimBP_C_1] X=-552.980 Y=272.312 Z=225.690
+[2017.10.22-22.02.44:041][512]LogBlueprintUserMessages: [ThirdPerson_AnimBP_C_1] Collision detected: Character_Blueprint
+[2017.10.22-22.02.44:041][512]LogBlueprintUserMessages: [Character_Blueprint] Ouch! Took damage:10.0
+[2017.10.22-22.02.45:116][622]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Attack1
+[2017.10.22-22.02.45:440][652]LogBlueprintUserMessages: [ThirdPerson_AnimBP_C_1] AnimNofity_punch1
+[2017.10.22-22.02.45:440][652]LogBlueprintUserMessages: [ThirdPerson_AnimBP_C_1] X=-553.182 Y=271.899 Z=225.704
+[2017.10.22-22.02.45:440][652]LogBlueprintUserMessages: [ThirdPerson_AnimBP_C_1] Collision detected: Character_Blueprint
+[2017.10.22-22.02.45:440][652]LogBlueprintUserMessages: [Character_Blueprint] Ouch! Took damage:10.0
+[2017.10.22-22.02.45:982][703]LogBlueprintUserMessages: [ThirdPerson_AnimBP_C_1] AnimNofity_punch1
+[2017.10.22-22.02.45:982][703]LogBlueprintUserMessages: [ThirdPerson_AnimBP_C_1] X=-553.246 Y=271.753 Z=225.723
+[2017.10.22-22.02.45:982][703]LogBlueprintUserMessages: [ThirdPerson_AnimBP_C_1] Collision detected: Character_Blueprint
+[2017.10.22-22.02.45:982][703]LogBlueprintUserMessages: [Character_Blueprint] Ouch! Took damage:10.0
+[2017.10.22-22.02.46:540][761]LogBlueprintUserMessages: [ThirdPerson_AnimBP_C_1] AnimNofity_punch1
+[2017.10.22-22.02.46:540][761]LogBlueprintUserMessages: [ThirdPerson_AnimBP_C_1] X=-553.185 Y=271.891 Z=225.705
+[2017.10.22-22.02.46:540][761]LogBlueprintUserMessages: [ThirdPerson_AnimBP_C_1] Collision detected: Character_Blueprint
+[2017.10.22-22.02.46:540][761]LogBlueprintUserMessages: [Character_Blueprint] Ouch! Took damage:10.0
+[2017.10.22-22.02.47:074][814]LogBlueprintUserMessages: [ThirdPerson_AnimBP_C_1] AnimNofity_punch1
+[2017.10.22-22.02.47:074][814]LogBlueprintUserMessages: [ThirdPerson_AnimBP_C_1] X=-552.492 Y=273.119 Z=225.786
+[2017.10.22-22.02.47:074][814]LogBlueprintUserMessages: [ThirdPerson_AnimBP_C_1] Collision detected: Character_Blueprint
+[2017.10.22-22.02.47:074][814]LogBlueprintUserMessages: [Character_Blueprint] Ouch! Took damage:10.0
+[2017.10.22-22.02.47:616][865]LogBlueprintUserMessages: [ThirdPerson_AnimBP_C_1] AnimNofity_punch1
+[2017.10.22-22.02.47:616][865]LogBlueprintUserMessages: [ThirdPerson_AnimBP_C_1] X=-553.201 Y=271.855 Z=225.709
+[2017.10.22-22.02.47:616][865]LogBlueprintUserMessages: [ThirdPerson_AnimBP_C_1] Collision detected: Character_Blueprint
+[2017.10.22-22.02.47:616][865]LogBlueprintUserMessages: [Character_Blueprint] Ouch! Took damage:10.0
+[2017.10.22-22.02.48:158][922]LogBlueprintUserMessages: [ThirdPerson_AnimBP_C_1] AnimNofity_punch1
+[2017.10.22-22.02.48:158][922]LogBlueprintUserMessages: [ThirdPerson_AnimBP_C_1] X=-553.241 Y=271.767 Z=225.721
+[2017.10.22-22.02.48:158][922]LogBlueprintUserMessages: [ThirdPerson_AnimBP_C_1] Collision detected: Character_Blueprint
+[2017.10.22-22.02.48:158][922]LogBlueprintUserMessages: [Character_Blueprint] Ouch! Took damage:10.0
+[2017.10.22-22.02.48:698][979]LogBlueprintUserMessages: [ThirdPerson_AnimBP_C_1] AnimNofity_punch1
+[2017.10.22-22.02.48:699][979]LogBlueprintUserMessages: [ThirdPerson_AnimBP_C_1] X=-553.216 Y=271.822 Z=225.713
+[2017.10.22-22.02.48:699][979]LogBlueprintUserMessages: [ThirdPerson_AnimBP_C_1] Collision detected: Character_Blueprint
+[2017.10.22-22.02.48:699][979]LogBlueprintUserMessages: [Character_Blueprint] Ouch! Took damage:10.0
+[2017.10.22-22.02.49:257][ 28]LogBlueprintUserMessages: [ThirdPerson_AnimBP_C_1] AnimNofity_punch1
+[2017.10.22-22.02.49:257][ 28]LogBlueprintUserMessages: [ThirdPerson_AnimBP_C_1] X=-552.939 Y=272.380 Z=225.698
+[2017.10.22-22.02.49:257][ 28]LogBlueprintUserMessages: [ThirdPerson_AnimBP_C_1] Collision detected: Character_Blueprint
+[2017.10.22-22.02.49:257][ 28]LogBlueprintUserMessages: [Character_Blueprint] Ouch! Took damage:10.0
+[2017.10.22-22.02.49:790][ 86]LogBlueprintUserMessages: [ThirdPerson_AnimBP_C_1] AnimNofity_punch1
+[2017.10.22-22.02.49:790][ 86]LogBlueprintUserMessages: [ThirdPerson_AnimBP_C_1] X=-553.196 Y=271.868 Z=225.708
+[2017.10.22-22.02.49:790][ 86]LogBlueprintUserMessages: [ThirdPerson_AnimBP_C_1] Collision detected: Character_Blueprint
+[2017.10.22-22.02.49:790][ 86]LogBlueprintUserMessages: [Character_Blueprint] Ouch! Took damage:10.0
+[2017.10.22-22.02.50:332][142]LogBlueprintUserMessages: [ThirdPerson_AnimBP_C_1] AnimNofity_punch1
+[2017.10.22-22.02.50:332][142]LogBlueprintUserMessages: [ThirdPerson_AnimBP_C_1] X=-553.202 Y=271.853 Z=225.710
+[2017.10.22-22.02.50:332][142]LogBlueprintUserMessages: [ThirdPerson_AnimBP_C_1] Collision detected: Character_Blueprint
+[2017.10.22-22.02.50:332][142]LogBlueprintUserMessages: [Character_Blueprint] Ouch! Took damage:10.0
+[2017.10.22-22.02.50:874][191]LogBlueprintUserMessages: [ThirdPerson_AnimBP_C_1] AnimNofity_punch1
+[2017.10.22-22.02.50:874][191]LogBlueprintUserMessages: [ThirdPerson_AnimBP_C_1] X=-553.204 Y=271.850 Z=225.710
+[2017.10.22-22.02.50:874][191]LogBlueprintUserMessages: [ThirdPerson_AnimBP_C_1] Collision detected: Character_Blueprint
+[2017.10.22-22.02.50:874][191]LogBlueprintUserMessages: [Character_Blueprint] Ouch! Took damage:10.0
+[2017.10.22-22.02.51:424][251]LogBlueprintUserMessages: [ThirdPerson_AnimBP_C_1] AnimNofity_punch1
+[2017.10.22-22.02.51:425][251]LogBlueprintUserMessages: [ThirdPerson_AnimBP_C_1] X=-553.222 Y=271.809 Z=225.715
+[2017.10.22-22.02.51:425][251]LogBlueprintUserMessages: [ThirdPerson_AnimBP_C_1] Collision detected: Character_Blueprint
+[2017.10.22-22.02.51:425][251]LogBlueprintUserMessages: [Character_Blueprint] Ouch! Took damage:10.0
+[2017.10.22-22.02.51:956][307]LogBlueprintUserMessages: [ThirdPerson_AnimBP_C_1] AnimNofity_punch1
+[2017.10.22-22.02.51:957][307]LogBlueprintUserMessages: [ThirdPerson_AnimBP_C_1] X=-552.897 Y=272.450 Z=225.705
+[2017.10.22-22.02.51:957][307]LogBlueprintUserMessages: [ThirdPerson_AnimBP_C_1] Collision detected: Character_Blueprint
+[2017.10.22-22.02.51:957][307]LogBlueprintUserMessages: [Character_Blueprint] Ouch! Took damage:10.0
+[2017.10.22-22.02.52:500][358]LogBlueprintUserMessages: [ThirdPerson_AnimBP_C_1] AnimNofity_punch1
+[2017.10.22-22.02.52:500][358]LogBlueprintUserMessages: [ThirdPerson_AnimBP_C_1] X=-553.244 Y=271.760 Z=225.722
+[2017.10.22-22.02.52:500][358]LogBlueprintUserMessages: [ThirdPerson_AnimBP_C_1] Collision detected: Character_Blueprint
+[2017.10.22-22.02.52:500][358]LogBlueprintUserMessages: [Character_Blueprint] Ouch! Took damage:10.0
+[2017.10.22-22.02.53:040][415]LogBlueprintUserMessages: [ThirdPerson_AnimBP_C_1] AnimNofity_punch1
+[2017.10.22-22.02.53:040][415]LogBlueprintUserMessages: [ThirdPerson_AnimBP_C_1] X=-553.183 Y=271.895 Z=225.705
+[2017.10.22-22.02.53:040][415]LogBlueprintUserMessages: [ThirdPerson_AnimBP_C_1] Collision detected: Character_Blueprint
+[2017.10.22-22.02.53:041][415]LogBlueprintUserMessages: [Character_Blueprint] Ouch! Took damage:10.0
+[2017.10.22-22.03.02:684][357]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Attack1
+[2017.10.22-22.03.03:008][386]LogBlueprintUserMessages: [ThirdPerson_AnimBP_C_1] AnimNofity_punch1
+[2017.10.22-22.03.03:008][386]LogBlueprintUserMessages: [ThirdPerson_AnimBP_C_1] X=-985.744 Y=312.798 Z=225.692
+[2017.10.22-22.03.03:549][444]LogBlueprintUserMessages: [ThirdPerson_AnimBP_C_1] AnimNofity_punch1
+[2017.10.22-22.03.03:549][444]LogBlueprintUserMessages: [ThirdPerson_AnimBP_C_1] X=-985.580 Y=312.722 Z=225.677
+[2017.10.22-22.03.04:109][502]LogBlueprintUserMessages: [ThirdPerson_AnimBP_C_1] AnimNofity_punch1
+[2017.10.22-22.03.04:109][502]LogBlueprintUserMessages: [ThirdPerson_AnimBP_C_1] X=-964.781 Y=290.725 Z=225.700
+[2017.10.22-22.03.04:109][502]LogBlueprintUserMessages: [ThirdPerson_AnimBP_C_1] Collision detected: ThirdPersonCharacter_C_2
+[2017.10.22-22.03.04:120][502]LogBlueprintUserMessages: [ThirdPersonCharacter_C_2] Ouch!  TPC Took damage:10.0
+[2017.10.22-22.03.04:642][549]LogBlueprintUserMessages: [ThirdPerson_AnimBP_C_1] AnimNofity_punch1
+[2017.10.22-22.03.04:642][549]LogBlueprintUserMessages: [ThirdPerson_AnimBP_C_1] X=-961.940 Y=288.412 Z=225.805
+[2017.10.22-22.03.05:182][606]LogBlueprintUserMessages: [ThirdPerson_AnimBP_C_1] AnimNofity_punch1
+[2017.10.22-22.03.05:182][606]LogBlueprintUserMessages: [ThirdPerson_AnimBP_C_1] X=-963.350 Y=289.252 Z=225.687
+[2017.10.22-22.03.05:182][606]LogBlueprintUserMessages: [ThirdPerson_AnimBP_C_1] Collision detected: ThirdPersonCharacter_C_2
+[2017.10.22-22.03.05:182][606]LogBlueprintUserMessages: [ThirdPersonCharacter_C_2] Ouch!  TPC Took damage:10.0
+[2017.10.22-22.03.05:724][663]LogBlueprintUserMessages: [ThirdPerson_AnimBP_C_1] AnimNofity_punch1
+[2017.10.22-22.03.05:724][663]LogBlueprintUserMessages: [ThirdPerson_AnimBP_C_1] X=-963.463 Y=289.305 Z=225.700
+[2017.10.22-22.03.05:724][663]LogBlueprintUserMessages: [ThirdPerson_AnimBP_C_1] Collision detected: ThirdPersonCharacter_C_2
+[2017.10.22-22.03.05:724][663]LogBlueprintUserMessages: [ThirdPersonCharacter_C_2] Ouch!  TPC Took damage:10.0
+[2017.10.22-22.03.06:292][715]LogBlueprintUserMessages: [ThirdPerson_AnimBP_C_1] AnimNofity_punch1
+[2017.10.22-22.03.06:292][715]LogBlueprintUserMessages: [ThirdPerson_AnimBP_C_1] X=-963.123 Y=289.144 Z=225.670
+[2017.10.22-22.03.06:825][768]LogBlueprintUserMessages: [ThirdPerson_AnimBP_C_1] AnimNofity_punch1
+[2017.10.22-22.03.06:825][768]LogBlueprintUserMessages: [ThirdPerson_AnimBP_C_1] X=-963.407 Y=289.279 Z=225.693
+[2017.10.22-22.03.06:825][768]LogBlueprintUserMessages: [ThirdPerson_AnimBP_C_1] Collision detected: ThirdPersonCharacter_C_2
+[2017.10.22-22.03.06:825][768]LogBlueprintUserMessages: [ThirdPersonCharacter_C_2] Ouch!  TPC Took damage:10.0
+[2017.10.22-22.03.07:366][825]LogBlueprintUserMessages: [ThirdPerson_AnimBP_C_1] AnimNofity_punch1
+[2017.10.22-22.03.07:366][825]LogBlueprintUserMessages: [ThirdPerson_AnimBP_C_1] X=-963.365 Y=289.259 Z=225.688
+[2017.10.22-22.03.07:366][825]LogBlueprintUserMessages: [ThirdPerson_AnimBP_C_1] Collision detected: ThirdPersonCharacter_C_2
+[2017.10.22-22.03.07:366][825]LogBlueprintUserMessages: [ThirdPersonCharacter_C_2] Ouch!  TPC Took damage:10.0
+[2017.10.22-22.03.07:907][878]LogBlueprintUserMessages: [ThirdPerson_AnimBP_C_1] AnimNofity_punch1
+[2017.10.22-22.03.07:907][878]LogBlueprintUserMessages: [ThirdPerson_AnimBP_C_1] X=-963.324 Y=289.240 Z=225.684
+[2017.10.22-22.03.08:460][932]LogBlueprintUserMessages: [ThirdPerson_AnimBP_C_1] AnimNofity_punch1
+[2017.10.22-22.03.08:460][932]LogBlueprintUserMessages: [ThirdPerson_AnimBP_C_1] X=-963.490 Y=289.318 Z=225.704
+[2017.10.22-22.03.08:460][932]LogBlueprintUserMessages: [ThirdPerson_AnimBP_C_1] Collision detected: ThirdPersonCharacter_C_2
+[2017.10.22-22.03.08:460][932]LogBlueprintUserMessages: [ThirdPersonCharacter_C_2] Ouch!  TPC Took damage:10.0
+[2017.10.22-22.03.08:992][988]LogBlueprintUserMessages: [ThirdPerson_AnimBP_C_1] AnimNofity_punch1
+[2017.10.22-22.03.08:992][988]LogBlueprintUserMessages: [ThirdPerson_AnimBP_C_1] X=-962.884 Y=289.005 Z=225.685
+[2017.10.22-22.03.08:993][988]LogBlueprintUserMessages: [ThirdPerson_AnimBP_C_1] Collision detected: ThirdPersonCharacter_C_2
+[2017.10.22-22.03.08:993][988]LogBlueprintUserMessages: [ThirdPersonCharacter_C_2] Ouch!  TPC Took damage:10.0
+[2017.10.22-22.03.09:533][ 40]LogBlueprintUserMessages: [ThirdPerson_AnimBP_C_1] AnimNofity_punch1
+[2017.10.22-22.03.09:533][ 40]LogBlueprintUserMessages: [ThirdPerson_AnimBP_C_1] X=-963.295 Y=289.226 Z=225.681
+[2017.10.22-22.03.10:074][ 91]LogBlueprintUserMessages: [ThirdPerson_AnimBP_C_1] AnimNofity_punch1
+[2017.10.22-22.03.10:074][ 91]LogBlueprintUserMessages: [ThirdPerson_AnimBP_C_1] X=-963.406 Y=289.279 Z=225.693
+[2017.10.22-22.03.10:074][ 91]LogBlueprintUserMessages: [ThirdPerson_AnimBP_C_1] Collision detected: ThirdPersonCharacter_C_2
+[2017.10.22-22.03.10:074][ 91]LogBlueprintUserMessages: [ThirdPersonCharacter_C_2] Ouch!  TPC Took damage:10.0
+[2017.10.22-22.03.10:616][148]LogBlueprintUserMessages: [ThirdPerson_AnimBP_C_1] AnimNofity_punch1
+[2017.10.22-22.03.10:616][148]LogBlueprintUserMessages: [ThirdPerson_AnimBP_C_1] X=-963.406 Y=289.279 Z=225.693
+[2017.10.22-22.03.10:616][148]LogBlueprintUserMessages: [ThirdPerson_AnimBP_C_1] Collision detected: ThirdPersonCharacter_C_2
+[2017.10.22-22.03.10:616][148]LogBlueprintUserMessages: [ThirdPersonCharacter_C_2] Ouch!  TPC Took damage:10.0
+[2017.10.22-22.03.11:175][205]LogBlueprintUserMessages: [ThirdPerson_AnimBP_C_1] AnimNofity_punch1
+[2017.10.22-22.03.11:175][205]LogBlueprintUserMessages: [ThirdPerson_AnimBP_C_1] X=-963.447 Y=289.298 Z=225.698
+[2017.10.22-22.03.11:708][253]LogBlueprintUserMessages: [ThirdPerson_AnimBP_C_1] AnimNofity_punch1
+[2017.10.22-22.03.11:708][253]LogBlueprintUserMessages: [ThirdPerson_AnimBP_C_1] X=-961.964 Y=288.427 Z=225.801
+[2017.10.22-22.03.11:708][253]LogBlueprintUserMessages: [ThirdPerson_AnimBP_C_1] Collision detected: ThirdPersonCharacter_C_2
+[2017.10.22-22.03.11:708][253]LogBlueprintUserMessages: [ThirdPersonCharacter_C_2] Ouch!  TPC Took damage:10.0
+[2017.10.22-22.03.12:249][304]LogBlueprintUserMessages: [ThirdPerson_AnimBP_C_1] AnimNofity_punch1
+[2017.10.22-22.03.12:249][304]LogBlueprintUserMessages: [ThirdPerson_AnimBP_C_1] X=-963.335 Y=289.245 Z=225.685
+[2017.10.22-22.04.46:546][813]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.10.22-22.04.46:665][813]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.10.22-22.05.23:698][280]LogSlate: Took 0.000139 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.10.22-22.05.24:237][280]LogSlate: Took 0.000256 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.10.22-22.05.24:523][280]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0008 seconds. Added 112 classes and 0 folders.
+[2017.10.22-22.05.25:971][280]LogSlate: Took 0.018222 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.10.22-22.05.26:571][281]LogSlate: Took 0.013137 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.10.22-22.06.58:197][840]LogEditorViewport: Clicking on Actor (context menu): ThirdPersonCharacter_C (ThirdPersonCharacter)
+[2017.10.22-22.07.09:262][526]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2017.10.22-22.07.09:631][526]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2017.10.22-22.07.09:959][526]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_8:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2017.10.22-22.07.10:667][526]LogContentBrowser: Native class hierarchy updated for 'ClothingSystemEditorInterface' in 0.0005 seconds. Added 1 classes and 0 folders.
+[2017.10.22-22.12.03:169][122]LogEditorViewport: Clicking on Actor (context menu): Character_Blueprint_C (Character_Blueprint)
+[2017.10.22-22.12.06:991][318]LogEditorViewport: Clicking on Actor (LMB): Character_Blueprint_C (Character_Blueprint)
+[2017.10.22-22.13.03:365][477]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.035
+[2017.10.22-22.13.03:385][477]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Mannequin/Animations/ThirdPerson_AnimBP] ([1] browsable assets)...
+[2017.10.22-22.13.03:400][477]OBJ SavePackage:     Rendered thumbnail for [AnimBlueprint /Game/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP]
+[2017.10.22-22.13.03:400][477]OBJ SavePackage: Finished generating thumbnails for package [/Game/Mannequin/Animations/ThirdPerson_AnimBP]
+[2017.10.22-22.13.03:724][477]LogSavePackage: Save=243.48ms
+[2017.10.22-22.13.03:724][477]LogSavePackage: Moving 'I:/gitRepo/Farrah/Bushikoden/Yokai/Saved/ThirdPerson_AnimBP_Auto1F25470F947012BB79594BF970614036C.tmp' to 'I:/gitRepo/Farrah/Bushikoden/Yokai/Saved/Autosaves/Game/Mannequin/Animations/ThirdPerson_AnimBP_Auto1.uasset'
+[2017.10.22-22.13.03:725][477]LogSavePackage:Display: Finished SavePackage I:/gitRepo/Farrah/Bushikoden/Yokai/Saved/Autosaves/Game/Mannequin/Animations/ThirdPerson_AnimBP_Auto1.uasset
+[2017.10.22-22.13.03:725][477]LogFileHelpers: Auto-saving content packages took 0.359
+[2017.10.22-22.29.57:197][913]SourceControl: Info fatal: E:/Epic Games/UE_4.16/Engine/Content/: 'E:/Epic Games/UE_4.16/Engine/Content/' is outside repository
+[2017.10.22-22.30.06:700][913]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Mannequin/Animations/ThirdPerson_AnimBP" FILE="I:/gitRepo/Farrah/Bushikoden/Yokai/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset" SILENT=true
+[2017.10.22-22.30.06:845][913]LogSavePackage: Save=140.13ms
+[2017.10.22-22.30.06:845][913]LogSavePackage: Moving 'I:/gitRepo/Farrah/Bushikoden/Yokai/Saved/ThirdPerson_AnimBPD65E69D64CA129D9AF51249FD714666A.tmp' to 'I:/gitRepo/Farrah/Bushikoden/Yokai/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset'
+[2017.10.22-22.30.06:862][913]LogSavePackage:Display: Finished SavePackage I:/gitRepo/Farrah/Bushikoden/Yokai/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset
+[2017.10.22-22.30.13:776][ 71]LogSavePackage: Save=281.31ms
+[2017.10.22-22.30.13:776][ 71]LogSavePackage: Moving 'I:/gitRepo/Farrah/Bushikoden/Yokai/Saved/ThirdPersonExampleMap723E70524D142F2A4C3E8B86090FA2A7.tmp' to 'I:/gitRepo/Farrah/Bushikoden/Yokai/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2017.10.22-22.30.13:778][ 71]LogSavePackage:Display: Finished SavePackage I:/gitRepo/Farrah/Bushikoden/Yokai/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap
+[2017.10.22-22.30.14:088][ 71]LogSavePackage: Save=188.37ms
+[2017.10.22-22.30.14:088][ 71]LogSavePackage: Moving 'I:/gitRepo/Farrah/Bushikoden/Yokai/Saved/ThirdPersonExampleMap_BuiltData316DDB3F41044D177863E79225D5F042.tmp' to 'I:/gitRepo/Farrah/Bushikoden/Yokai/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2017.10.22-22.30.14:089][ 71]LogSavePackage:Display: Finished SavePackage I:/gitRepo/Farrah/Bushikoden/Yokai/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset
+[2017.10.22-22.30.16:553][256]SourceControl: Info fatal: E:/Epic Games/UE_4.16/Engine/Content/: 'E:/Epic Games/UE_4.16/Engine/Content/' is outside repository
+[2017.10.22-22.31.11:422][256]LogSourceControl: FGitCheckInWorker: commit successful
+[2017.10.22-22.31.11:577][256]SourceControl: Info [master 8332939] Latest Combat/Animation changes
+[2017.10.22-22.31.11:577][256]SourceControl: Info  4 files changed, 0 insertions(+), 0 deletions(-)
+[2017.10.22-22.31.11:577][256]SourceControl: Info  rewrite Yokai/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset (88%)
+[2017.10.22-22.31.11:582][256]SourceControl: Info Commited [master 8332939] Latest Combat/Animation changes.
+[2017.10.23-07.22.09:099][ 63]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.10.23-07.22.09:279][ 63]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.10.23-07.22.09:526][ 64]Cmd: QUIT_EDITOR
+[2017.10.23-07.22.10:170][ 64]LogExit: Preparing to exit.
+[2017.10.23-07.22.10:870][ 64]LogExit: Editor shut down
+[2017.10.23-07.22.10:873][ 64]LogExit: Transaction tracking system shut down
+[2017.10.23-07.22.10:963][ 64]LogObj: Freed 0b from 0 cluster array pools.
+[2017.10.23-07.22.10:963][ 64]LogExit: Object subsystem successfully closed.
+[2017.10.23-07.22.10:990][ 64]LogD3D11RHI: Shutdown
+[2017.10.23-07.22.10:990][ 64]LogD3D11RHI: CleanupD3DDevice
+[2017.10.23-07.22.11:137][ 64]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.10.23-07.22.11:196][ 64]LogModuleManager: Shutting down and abandoning module ClothingSystemEditorInterface (536)
+[2017.10.23-07.22.11:196][ 64]LogModuleManager: Shutting down and abandoning module SkeletonEditor (534)
+[2017.10.23-07.22.11:196][ 64]LogModuleManager: Shutting down and abandoning module AnimationBlueprintEditor (532)
+[2017.10.23-07.22.11:196][ 64]LogModuleManager: Shutting down and abandoning module BlueprintGraph (530)
+[2017.10.23-07.22.11:196][ 64]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (528)
+[2017.10.23-07.22.11:196][ 64]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (526)
+[2017.10.23-07.22.11:196][ 64]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (524)
+[2017.10.23-07.22.11:196][ 64]LogModuleManager: Shutting down and abandoning module CrashTracker (522)
+[2017.10.23-07.22.11:196][ 64]LogModuleManager: Shutting down and abandoning module SceneOutliner (520)
+[2017.10.23-07.22.11:207][ 64]LogModuleManager: Shutting down and abandoning module AddContentDialog (518)
+[2017.10.23-07.22.11:215][ 64]LogDirectoryWatcher: A directory notification for 'E:/Epic Games/UE_4.16/FeaturePacks/' was aborted.
+[2017.10.23-07.22.11:217][ 64]LogModuleManager: Shutting down and abandoning module WidgetCarousel (517)
+[2017.10.23-07.22.11:217][ 64]LogModuleManager: Shutting down and abandoning module EditorWidgets (514)
+[2017.10.23-07.22.11:217][ 64]LogModuleManager: Shutting down and abandoning module CollectionManager (512)
+[2017.10.23-07.22.11:217][ 64]LogDirectoryWatcher: A directory notification for 'I:/gitRepo/Farrah/Bushikoden/Yokai/Content/Collections/' was aborted.
+[2017.10.23-07.22.11:217][ 64]LogDirectoryWatcher: A directory notification for 'I:/gitRepo/Farrah/Bushikoden/Yokai/Content/Developers/Char/Collections/' was aborted.
+[2017.10.23-07.22.11:217][ 64]LogDirectoryWatcher: A directory notification for 'I:/gitRepo/Farrah/Bushikoden/Yokai/Saved/Collections/' was aborted.
+[2017.10.23-07.22.11:217][ 64]LogModuleManager: Shutting down and abandoning module StatsViewer (510)
+[2017.10.23-07.22.11:217][ 64]LogModuleManager: Shutting down and abandoning module FoliageEdit (508)
+[2017.10.23-07.22.11:217][ 64]LogModuleManager: Shutting down and abandoning module LandscapeEditor (506)
+[2017.10.23-07.22.11:217][ 64]LogModuleManager: Shutting down and abandoning module MeshPaintMode (504)
+[2017.10.23-07.22.11:217][ 64]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (502)
+[2017.10.23-07.22.11:217][ 64]LogModuleManager: Shutting down and abandoning module ActorPickerMode (500)
+[2017.10.23-07.22.11:217][ 64]LogModuleManager: Shutting down and abandoning module GeometryMode (498)
+[2017.10.23-07.22.11:217][ 64]LogModuleManager: Shutting down and abandoning module TextureAlignMode (496)
+[2017.10.23-07.22.11:217][ 64]LogModuleManager: Shutting down and abandoning module BspMode (494)
+[2017.10.23-07.22.11:217][ 64]LogModuleManager: Shutting down and abandoning module HardwareSurvey (492)
+[2017.10.23-07.22.11:217][ 64]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (490)
+[2017.10.23-07.22.11:217][ 64]LogModuleManager: Shutting down and abandoning module AutomationWorker (488)
+[2017.10.23-07.22.11:217][ 64]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (486)
+[2017.10.23-07.22.11:217][ 64]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (484)
+[2017.10.23-07.22.11:217][ 64]LogModuleManager: Shutting down and abandoning module PlacementMode (483)
+[2017.10.23-07.22.11:217][ 64]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (480)
+[2017.10.23-07.22.11:217][ 64]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (478)
+[2017.10.23-07.22.11:217][ 64]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (476)
+[2017.10.23-07.22.11:217][ 64]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (474)
+[2017.10.23-07.22.11:217][ 64]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (472)
+[2017.10.23-07.22.11:217][ 64]LogModuleManager: Shutting down and abandoning module Media (471)
+[2017.10.23-07.22.11:217][ 64]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (468)
+[2017.10.23-07.22.11:217][ 64]LogModuleManager: Shutting down and abandoning module CharacterAI (466)
+[2017.10.23-07.22.11:217][ 64]LogModuleManager: Shutting down and abandoning module AudioCapture (464)
+[2017.10.23-07.22.11:217][ 64]LogModuleManager: Shutting down and abandoning module SequenceRecorder (463)
+[2017.10.23-07.22.11:217][ 64]LogModuleManager: Shutting down and abandoning module SmartSnapping (460)
+[2017.10.23-07.22.11:217][ 64]LogModuleManager: Shutting down and abandoning module SessionServices (458)
+[2017.10.23-07.22.11:217][ 64]LogModuleManager: Shutting down and abandoning module ViewportSnapping (456)
+[2017.10.23-07.22.11:217][ 64]LogModuleManager: Shutting down and abandoning module ViewportInteraction (454)
+[2017.10.23-07.22.11:217][ 64]LogModuleManager: Shutting down and abandoning module ClothPainter (452)
+[2017.10.23-07.22.11:217][ 64]LogModuleManager: Shutting down and abandoning module LogVisualizer (450)
+[2017.10.23-07.22.11:217][ 64]LogModuleManager: Shutting down and abandoning module IntroTutorials (448)
+[2017.10.23-07.22.11:217][ 64]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (447)
+[2017.10.23-07.22.11:217][ 64]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (444)
+[2017.10.23-07.22.11:217][ 64]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (442)
+[2017.10.23-07.22.11:217][ 64]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (440)
+[2017.10.23-07.22.11:217][ 64]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (438)
+[2017.10.23-07.22.11:217][ 64]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (437)
+[2017.10.23-07.22.11:640][ 64]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (434)
+[2017.10.23-07.22.11:640][ 64]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (432)
+[2017.10.23-07.22.11:640][ 64]LogModuleManager: Shutting down and abandoning module InputBindingEditor (430)
+[2017.10.23-07.22.11:640][ 64]LogModuleManager: Shutting down and abandoning module MergeActors (428)
+[2017.10.23-07.22.11:640][ 64]LogModuleManager: Shutting down and abandoning module SizeMap (426)
+[2017.10.23-07.22.11:640][ 64]LogModuleManager: Shutting down and abandoning module TreeMap (424)
+[2017.10.23-07.22.11:640][ 64]LogModuleManager: Shutting down and abandoning module ReferenceViewer (422)
+[2017.10.23-07.22.11:640][ 64]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (420)
+[2017.10.23-07.22.11:640][ 64]LogModuleManager: Shutting down and abandoning module LocalizationService (419)
+[2017.10.23-07.22.11:640][ 64]LogModuleManager: Shutting down and abandoning module HardwareTargeting (416)
+[2017.10.23-07.22.11:640][ 64]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (414)
+[2017.10.23-07.22.11:640][ 64]LogModuleManager: Shutting down and abandoning module UndoHistory (412)
+[2017.10.23-07.22.11:640][ 64]LogModuleManager: Shutting down and abandoning module UserFeedback (410)
+[2017.10.23-07.22.11:640][ 64]LogModuleManager: Shutting down and abandoning module XmlParser (408)
+[2017.10.23-07.22.11:640][ 64]LogModuleManager: Shutting down and abandoning module Blutility (406)
+[2017.10.23-07.22.11:640][ 64]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (404)
+[2017.10.23-07.22.11:640][ 64]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (403)
+[2017.10.23-07.22.11:640][ 64]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (400)
+[2017.10.23-07.22.11:640][ 64]LogModuleManager: Shutting down and abandoning module SettingsEditor (398)
+[2017.10.23-07.22.11:640][ 64]LogModuleManager: Shutting down and abandoning module ProjectLauncher (396)
+[2017.10.23-07.22.11:640][ 64]LogModuleManager: Shutting down and abandoning module SessionFrontend (394)
+[2017.10.23-07.22.11:640][ 64]LogModuleManager: Shutting down and abandoning module ProfilerClient (392)
+[2017.10.23-07.22.11:640][ 64]LogModuleManager: Shutting down and abandoning module DeviceManager (390)
+[2017.10.23-07.22.11:640][ 64]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (389)
+[2017.10.23-07.22.11:707][ 64]LogModuleManager: Shutting down and abandoning module AutomationController (386)
+[2017.10.23-07.22.11:707][ 64]LogModuleManager: Shutting down and abandoning module AutomationWindow (384)
+[2017.10.23-07.22.11:707][ 64]LogModuleManager: Shutting down and abandoning module Layers (382)
+[2017.10.23-07.22.11:707][ 64]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (380)
+[2017.10.23-07.22.11:707][ 64]LogModuleManager: Shutting down and abandoning module DetailCustomizations (378)
+[2017.10.23-07.22.11:707][ 64]LogModuleManager: Shutting down and abandoning module PackagesDialog (376)
+[2017.10.23-07.22.11:707][ 64]LogModuleManager: Shutting down and abandoning module Persona (374)
+[2017.10.23-07.22.11:707][ 64]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (373)
+[2017.10.23-07.22.11:707][ 64]LogModuleManager: Shutting down and abandoning module AnimGraph (371)
+[2017.10.23-07.22.11:707][ 64]LogModuleManager: Shutting down and abandoning module Kismet (368)
+[2017.10.23-07.22.11:715][ 64]LogModuleManager: Shutting down and abandoning module ClassViewer (366)
+[2017.10.23-07.22.11:715][ 64]LogModuleManager: Shutting down and abandoning module Toolbox (364)
+[2017.10.23-07.22.11:715][ 64]LogModuleManager: Shutting down and abandoning module ModuleUI (362)
+[2017.10.23-07.22.11:715][ 64]LogModuleManager: Shutting down and abandoning module MovieSceneTools (360)
+[2017.10.23-07.22.11:715][ 64]LogModuleManager: Shutting down and abandoning module OutputLog (358)
+[2017.10.23-07.22.11:715][ 64]LogModuleManager: Shutting down and abandoning module GammaUI (356)
+[2017.10.23-07.22.11:715][ 64]LogModuleManager: Shutting down and abandoning module Documentation (354)
+[2017.10.23-07.22.11:716][ 64]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (352)
+[2017.10.23-07.22.11:716][ 64]LogModuleManager: Shutting down and abandoning module MovieScene (350)
+[2017.10.23-07.22.11:716][ 64]LogModuleManager: Shutting down and abandoning module Niagara (348)
+[2017.10.23-07.22.11:716][ 64]LogModuleManager: Shutting down and abandoning module NiagaraEditor (347)
+[2017.10.23-07.22.11:716][ 64]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (344)
+[2017.10.23-07.22.11:716][ 64]LogModuleManager: Shutting down and abandoning module AnalyticsET (342)
+[2017.10.23-07.22.11:716][ 64]LogModuleManager: Shutting down and abandoning module PortalServices (340)
+[2017.10.23-07.22.11:716][ 64]LogModuleManager: Shutting down and abandoning module PortalRpc (338)
+[2017.10.23-07.22.11:716][ 64]LogModuleManager: Shutting down and abandoning module MessagingRpc (336)
+[2017.10.23-07.22.11:716][ 64]LogModuleManager: Shutting down and abandoning module AIModule (334)
+[2017.10.23-07.22.11:716][ 64]LogModuleManager: Shutting down and abandoning module GameplayDebugger (333)
+[2017.10.23-07.22.11:716][ 64]LogModuleManager: Shutting down and abandoning module AITestSuite (331)
+[2017.10.23-07.22.11:716][ 64]LogModuleManager: Shutting down and abandoning module ProfilerService (328)
+[2017.10.23-07.22.11:865][ 64]LogModuleManager: Shutting down and abandoning module TaskGraph (326)
+[2017.10.23-07.22.11:865][ 64]LogModuleManager: Shutting down and abandoning module SteamVRController (324)
+[2017.10.23-07.22.11:865][ 64]LogModuleManager: Shutting down and abandoning module SteamVR (322)
+[2017.10.23-07.22.11:865][ 64]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (320)
+[2017.10.23-07.22.11:865][ 64]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (318)
+[2017.10.23-07.22.11:865][ 64]LogModuleManager: Shutting down and abandoning module OculusLibrary (316)
+[2017.10.23-07.22.11:865][ 64]LogModuleManager: Shutting down and abandoning module OculusInput (314)
+[2017.10.23-07.22.11:865][ 64]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (312)
+[2017.10.23-07.22.11:865][ 64]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (310)
+[2017.10.23-07.22.11:865][ 64]LogModuleManager: Shutting down and abandoning module CableComponent (308)
+[2017.10.23-07.22.11:865][ 64]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (306)
+[2017.10.23-07.22.11:865][ 64]LogModuleManager: Shutting down and abandoning module AndroidPermission (304)
+[2017.10.23-07.22.11:865][ 64]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (300)
+[2017.10.23-07.22.11:865][ 64]LogModuleManager: Shutting down and abandoning module HTML5Networking (298)
+[2017.10.23-07.22.11:865][ 64]LogModuleManager: Shutting down and abandoning module AlembicImporter (296)
+[2017.10.23-07.22.11:865][ 64]LogModuleManager: Shutting down and abandoning module AlembicLibrary (295)
+[2017.10.23-07.22.11:865][ 64]LogModuleManager: Shutting down and abandoning module GeometryCache (294)
+[2017.10.23-07.22.11:865][ 64]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (293)
+[2017.10.23-07.22.11:865][ 64]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (288)
+[2017.10.23-07.22.11:865][ 64]LogModuleManager: Shutting down and abandoning module SuperSearch (287)
+[2017.10.23-07.22.11:865][ 64]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (284)
+[2017.10.23-07.22.11:865][ 64]LogModuleManager: Shutting down and abandoning module PluginBrowser (282)
+[2017.10.23-07.22.11:865][ 64]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (280)
+[2017.10.23-07.22.11:865][ 64]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (278)
+[2017.10.23-07.22.11:865][ 64]LogModuleManager: Shutting down and abandoning module DesktopPlatform (277)
+[2017.10.23-07.22.11:865][ 64]LogModuleManager: Shutting down and abandoning module UObjectPlugin (274)
+[2017.10.23-07.22.11:865][ 64]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (272)
+[2017.10.23-07.22.11:865][ 64]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (270)
+[2017.10.23-07.22.11:865][ 64]LogModuleManager: Shutting down and abandoning module GitSourceControl (268)
+[2017.10.23-07.22.11:865][ 64]LogModuleManager: Shutting down and abandoning module SourceControl (267)
+[2017.10.23-07.22.11:865][ 64]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (264)
+[2017.10.23-07.22.11:865][ 64]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (262)
+[2017.10.23-07.22.11:865][ 64]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (260)
+[2017.10.23-07.22.11:865][ 64]LogModuleManager: Shutting down and abandoning module Paper2DEditor (258)
+[2017.10.23-07.22.11:865][ 64]LogModuleManager: Shutting down and abandoning module MeshPaint (257)
+[2017.10.23-07.22.11:865][ 64]LogModuleManager: Shutting down and abandoning module LevelEditor (255)
+[2017.10.23-07.22.11:866][ 64]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (254)
+[2017.10.23-07.22.11:866][ 64]LogModuleManager: Shutting down and abandoning module MainFrame (252)
+[2017.10.23-07.22.11:867][ 64]LogModuleManager: Shutting down and abandoning module HotReload (251)
+[2017.10.23-07.22.11:867][ 64]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (246)
+[2017.10.23-07.22.11:867][ 64]LogModuleManager: Shutting down and abandoning module PhysXVehicles (244)
+[2017.10.23-07.22.11:867][ 64]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (242)
+[2017.10.23-07.22.11:867][ 64]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (240)
+[2017.10.23-07.22.11:867][ 64]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (238)
+[2017.10.23-07.22.11:867][ 64]LogModuleManager: Shutting down and abandoning module UdpMessaging (236)
+[2017.10.23-07.22.11:968][ 64]LogModuleManager: Shutting down and abandoning module TcpMessaging (234)
+[2017.10.23-07.22.12:070][ 64]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (232)
+[2017.10.23-07.22.12:070][ 64]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (230)
+[2017.10.23-07.22.12:070][ 64]LogModuleManager: Shutting down and abandoning module FacialAnimation (228)
+[2017.10.23-07.22.12:070][ 64]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (226)
+[2017.10.23-07.22.12:070][ 64]LogModuleManager: Shutting down and abandoning module GraphEditor (225)
+[2017.10.23-07.22.12:070][ 64]LogModuleManager: Shutting down and abandoning module ContentBrowser (223)
+[2017.10.23-07.22.12:070][ 64]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (220)
+[2017.10.23-07.22.12:070][ 64]LogModuleManager: Shutting down and abandoning module Paper2D (218)
+[2017.10.23-07.22.12:070][ 64]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (216)
+[2017.10.23-07.22.12:071][ 64]LogModuleManager: Shutting down and abandoning module WmfMedia (214)
+[2017.10.23-07.22.12:071][ 64]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (212)
+[2017.10.23-07.22.12:071][ 64]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (210)
+[2017.10.23-07.22.12:071][ 64]LogModuleManager: Shutting down and abandoning module MediaAssets (208)
+[2017.10.23-07.22.12:071][ 64]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (206)
+[2017.10.23-07.22.12:071][ 64]LogModuleManager: Shutting down and abandoning module VREditor (204)
+[2017.10.23-07.22.12:071][ 64]LogModuleManager: Shutting down and abandoning module StringTableEditor (202)
+[2017.10.23-07.22.12:071][ 64]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (200)
+[2017.10.23-07.22.12:071][ 64]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (198)
+[2017.10.23-07.22.12:071][ 64]LogModuleManager: Shutting down and abandoning module FunctionalTesting (196)
+[2017.10.23-07.22.12:071][ 64]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (194)
+[2017.10.23-07.22.12:071][ 64]LogModuleManager: Shutting down and abandoning module UMG (192)
+[2017.10.23-07.22.12:071][ 64]LogModuleManager: Shutting down and abandoning module UMGEditor (191)
+[2017.10.23-07.22.12:071][ 64]LogModuleManager: Shutting down and abandoning module Sequencer (190)
+[2017.10.23-07.22.12:071][ 64]LogModuleManager: Shutting down and abandoning module AssetTools (188)
+[2017.10.23-07.22.12:071][ 64]LogModuleManager: Shutting down and abandoning module MessageLog (187)
+[2017.10.23-07.22.12:071][ 64]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (186)
+[2017.10.23-07.22.12:071][ 64]LogModuleManager: Shutting down and abandoning module SlateReflector (180)
+[2017.10.23-07.22.12:071][ 64]LogModuleManager: Shutting down and abandoning module Slate (178)
+[2017.10.23-07.22.12:071][ 64]LogModuleManager: Shutting down and abandoning module EditorStyle (176)
+[2017.10.23-07.22.12:073][ 64]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (174)
+[2017.10.23-07.22.12:073][ 64]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (172)
+[2017.10.23-07.22.12:073][ 64]LogModuleManager: Shutting down and abandoning module XAudio2 (170)
+[2017.10.23-07.22.12:073][ 64]LogModuleManager: Shutting down and abandoning module Networking (168)
+[2017.10.23-07.22.12:073][ 64]LogModuleManager: Shutting down and abandoning module Core (164)
+[2017.10.23-07.22.12:073][ 64]LogModuleManager: Shutting down and abandoning module AssetRegistry (162)
+[2017.10.23-07.22.12:158][ 64]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.10.23-07.22.12:158][ 64]LogDirectoryWatcher: A directory notification for 'I:/gitRepo/Farrah/Bushikoden/Yokai/Content/' was aborted.
+[2017.10.23-07.22.12:158][ 64]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.10.23-07.22.12:158][ 64]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/GearVR/Content/' was aborted.
+[2017.10.23-07.22.12:160][ 64]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (161)
+[2017.10.23-07.22.12:161][ 64]LogModuleManager: Shutting down and abandoning module KismetCompiler (158)
+[2017.10.23-07.22.12:161][ 64]LogModuleManager: Shutting down and abandoning module LevelSequence (156)
+[2017.10.23-07.22.12:161][ 64]LogModuleManager: Shutting down and abandoning module PhysXFormats (154)
+[2017.10.23-07.22.12:161][ 64]LogModuleManager: Shutting down and abandoning module MeshUtilities (152)
+[2017.10.23-07.22.12:161][ 64]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (151)
+[2017.10.23-07.22.12:161][ 64]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (149)
+[2017.10.23-07.22.12:161][ 64]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (147)
+[2017.10.23-07.22.12:161][ 64]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2017.10.23-07.22.12:230][ 64]LogDerivedDataCache: Shutdown
+[2017.10.23-07.22.12:230][ 64]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2017.10.23-07.22.12:230][ 64]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2017.10.23-07.22.12:230][ 64]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2017.10.23-07.22.12:230][ 64]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2017.10.23-07.22.12:230][ 64]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2017.10.23-07.22.12:230][ 64]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2017.10.23-07.22.12:230][ 64]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2017.10.23-07.22.12:230][ 64]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2017.10.23-07.22.12:230][ 64]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2017.10.23-07.22.12:230][ 64]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2017.10.23-07.22.12:230][ 64]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2017.10.23-07.22.12:230][ 64]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2017.10.23-07.22.12:230][ 64]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2017.10.23-07.22.12:230][ 64]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2017.10.23-07.22.12:230][ 64]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2017.10.23-07.22.12:230][ 64]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2017.10.23-07.22.12:230][ 64]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2017.10.23-07.22.12:230][ 64]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2017.10.23-07.22.12:230][ 64]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2017.10.23-07.22.12:230][ 64]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2017.10.23-07.22.12:230][ 64]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2017.10.23-07.22.12:230][ 64]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2017.10.23-07.22.12:230][ 64]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2017.10.23-07.22.12:230][ 64]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2017.10.23-07.22.12:230][ 64]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2017.10.23-07.22.12:230][ 64]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2017.10.23-07.22.12:230][ 64]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2017.10.23-07.22.12:230][ 64]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2017.10.23-07.22.12:230][ 64]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2017.10.23-07.22.12:230][ 64]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2017.10.23-07.22.12:230][ 64]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2017.10.23-07.22.12:230][ 64]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2017.10.23-07.22.12:230][ 64]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2017.10.23-07.22.12:230][ 64]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2017.10.23-07.22.12:230][ 64]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2017.10.23-07.22.12:230][ 64]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2017.10.23-07.22.12:230][ 64]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2017.10.23-07.22.12:230][ 64]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2017.10.23-07.22.12:230][ 64]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2017.10.23-07.22.12:230][ 64]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2017.10.23-07.22.12:230][ 64]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2017.10.23-07.22.12:230][ 64]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2017.10.23-07.22.12:230][ 64]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2017.10.23-07.22.12:230][ 64]LogModuleManager: Shutting down and abandoning module OculusRift (56)
+[2017.10.23-07.22.12:230][ 64]LogModuleManager: Shutting down and abandoning module GearVRController (54)
+[2017.10.23-07.22.12:230][ 64]LogModuleManager: Shutting down and abandoning module GearVR (52)
+[2017.10.23-07.22.12:230][ 64]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2017.10.23-07.22.12:230][ 64]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2017.10.23-07.22.12:230][ 64]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2017.10.23-07.22.12:230][ 64]LogOnline:Display: Unloading online subsystem: NULL
+[2017.10.23-07.22.12:230][ 64]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2017.10.23-07.22.12:230][ 64]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2017.10.23-07.22.12:230][ 64]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.10.23-07.22.12:231][ 64]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B992868ED-48ED-313F-2880-6EA646B5E3E0%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.16.3-3561208%2B%2B%2BUE4%2BRelease-4.16&UserID=0920936e49f8fdaec16d2099e1122cd3%7C2ea6d838429a468f8ac17b26f6378bab%7C3ab63175-a0f3-4975-94a2-2e710574c689&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.10.23-07.22.12:239][ 64]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2017.10.23-07.22.12:240][ 64]LogModuleManager: Shutting down and abandoning module HTTPChunkInstaller (36)
+[2017.10.23-07.22.12:240][ 64]LogModuleManager: Shutting down and abandoning module AnimationModifiers (34)
+[2017.10.23-07.22.12:240][ 64]LogModuleManager: Shutting down and abandoning module PropertyEditor (33)
+[2017.10.23-07.22.12:240][ 64]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2017.10.23-07.22.12:240][ 64]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2017.10.23-07.22.12:240][ 64]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2017.10.23-07.22.12:240][ 64]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2017.10.23-07.22.12:240][ 64]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2017.10.23-07.22.12:241][ 64]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2017.10.23-07.22.12:241][ 64]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2017.10.23-07.22.12:241][ 64]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2017.10.23-07.22.12:241][ 64]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2017.10.23-07.22.12:241][ 64]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2017.10.23-07.22.12:241][ 64]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2017.10.23-07.22.12:241][ 64]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2017.10.23-07.22.12:241][ 64]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.10.23-07.22.12:241][ 64]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.10.23-07.22.12:241][ 64]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.10.23-07.22.12:242][ 64]LogExit: Exiting.
+[2017.10.23-07.22.12:249][ 64]Log file closed, 10/23/17 01:22:12
