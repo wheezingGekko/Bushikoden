@@ -4,3 +4,8 @@ Yokai/Intermediate/AssetRegistryCache/c90e3f55.bin
 Yokai/Intermediate/AssetRegistryCache/c90e3f55.bin
 Yokai/Intermediate/AssetRegistryCache/c90e3f55.bin
 Yokai/Intermediate/CachedAssetRegistry.bin
+*backup*
+*.ini
+*.log
+*crashes*
+*Autosaves*
