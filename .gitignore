@@ -1,11 +1,18 @@
-
-Yokai/Intermediate/AssetRegistryCache/c90e3f55.bin
-Yokai/Intermediate/CachedAssetRegistry.bin
 *backup*
+
 *.ini
 *.log
+
 *crashes*
 *Autosaves*
-Yokai/Saved/Config/Windows/*
+
+# exclude unnecessary things
+Yokai/Saved/*
+Yokai/Binaries/*
+Yokai/Intermediate/*
+
 *~
-Yokai/Saved/AutoScreenshot.png
+
+# exclude visual studio stuff
+*.vcxproj*
+*v15*
