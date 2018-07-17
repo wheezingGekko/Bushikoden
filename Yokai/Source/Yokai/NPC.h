@@ -5,6 +5,8 @@
 #include "GenericTeamAgentInterface.h"
 #include "CoreMinimal.h"
 #include "GameFramework/Character.h"
+#include "Engine/SkeletalMesh.h"
+#include "AIController.h"
 #include "NPC.generated.h"
 
 UCLASS(Abstract)
@@ -20,6 +22,8 @@ public:
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
+	FGenericTeamId TeamId;
+
 
 public:	
 	// Called every frame
@@ -30,7 +34,7 @@ public:
 
 
 private:
-	 FGenericTeamId TeamId;
+	 //FGenericTeamId TeamId;
 
 	UFUNCTION(BlueprintCallable)
 		virtual FGenericTeamId GetGenericTeamId() const override;
