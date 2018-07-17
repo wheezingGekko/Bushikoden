@@ -3,12 +3,11 @@
 *.log
 
 *crashes*
-*Autosaves*
 
 # exclude unnecessary things
-Yokai/Saved/*
-Yokai/Binaries/*
-Yokai/Intermediate/*
+*/Saved/*
+*/Binaries/*
+*/Intermediate/*
 
 *~
 
