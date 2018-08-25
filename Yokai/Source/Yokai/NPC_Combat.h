@@ -24,6 +24,8 @@ public:
 
 		// still debating between protected and private methods
 protected:
+
+
 	/* empty methods of fight */
 
 	// returns if a combat-oriented action was a success or failure

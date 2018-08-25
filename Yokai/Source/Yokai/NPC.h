@@ -17,6 +17,7 @@ class YOKAI_API ANPC : public ACharacter, public IGenericTeamAgentInterface
 public:
 	// Sets default values for this character's properties
 	ANPC();
+	ANPC(FString newName);
 
 
 protected:
@@ -32,6 +33,8 @@ public:
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="NPC Stats")
+		FString NPCName;
 
 private:
 	 //FGenericTeamId TeamId;
