@@ -20,4 +20,3 @@ class YOKAI_API ANPC_Noncombat : public ANPC
 
 	
 };
- b
