@@ -12,17 +12,11 @@
 ANPC::ANPC()
 {
 	// Set this character to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
-	//PrimaryActorTick.bCanEverTick = true;
+	PrimaryActorTick.bCanEverTick = true;
 	
 	//AIControllerClass = GetClass(NewAIController)
 
-	ANPC::ANPC(FString(TEXT("No Name")));
-}
 
-ANPC::ANPC(FString newName)
-{
-	PrimaryActorTick.bCanEverTick = true;
-	NPCName = newName;
 }
 
 void ANPC::Init()
