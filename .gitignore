@@ -69,6 +69,8 @@
 # Compiled source files for the engine to use
 */Intermediate/*
 */Plugins/*/Intermediate/*
+!*/Plugins/PerceptionNeuron/Binaries/Win64/UE4Editor-PerceptionNeuronEditor.dll
+!*/Plugins/PerceptionNeuron/Binaries/Win64/UE4Editor-PerceptionNeuronRuntime.dll
 
 # Cache files for the editor to use
 */DerivedDataCache/*
