@@ -15,6 +15,7 @@
 *.so
 *.dylib
 *.dll
+!Yokai/Plugins/PerceptionNeuron/Binaries/Win64/UE4Editor-PerceptionNeuron*.dll
 
 # Fortran module files
 *.mod
@@ -46,8 +47,8 @@
 */SourceArt/**/*.tga
 
 # Binary Files
-*/Binaries/*
-*/Plugins/*/Binaries/*
+Yokai/Binaries/*
+#*/Plugins/*/Binaries/*
 
 # Builds
 */Build/*
@@ -72,9 +73,3 @@
 
 # Cache files for the editor to use
 */DerivedDataCache/*
-
-# Whitelist third party plugins
-## Perception Neuron
-!Yokai/Plugins
-!Yokai/Plugins/PerceptionNeuron
-!Yokai/Plugins/PerceptionNeuron/*
