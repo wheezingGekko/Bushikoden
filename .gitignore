@@ -1,5 +1,5 @@
 # Visual Studio 2015 user specific files
-*.vs/*
+*/.vs
 
 # Compiled Object files
 *.slo
@@ -69,8 +69,12 @@
 # Compiled source files for the engine to use
 */Intermediate/*
 */Plugins/*/Intermediate/*
-!*/Plugins/PerceptionNeuron/Binaries/Win64/UE4Editor-PerceptionNeuronEditor.dll
-!*/Plugins/PerceptionNeuron/Binaries/Win64/UE4Editor-PerceptionNeuronRuntime.dll
 
 # Cache files for the editor to use
 */DerivedDataCache/*
+
+# Whitelist third party plugins
+## Perception Neuron
+!Yokai/Plugins
+!Yokai/Plugins/PerceptionNeuron
+!Yokai/Plugins/PerceptionNeuron/*
