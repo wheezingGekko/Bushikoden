@@ -94,7 +94,7 @@ private:
 };
 
 
-USTRUCT()
+USTRUCT(BlueprintType)
 struct PERCEPTIONNEURONRUNTIME_API FAnimationNode_NewPoseCalc : public FAnimNode_Base
 {
 	GENERATED_USTRUCT_BODY()
@@ -121,8 +121,10 @@ public:
 #endif
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "SkeletonsRetargeting", meta = (NeverAsPin))
-	TArray<FBoneMappingInfo> BoneMap;
-	
+		TArray<FBoneMappingInfo> BoneMap;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "SkeletonsRetargeting", meta = (NeverAsPin))
+		FString SkeletonNamePrefix;
 protected:
 	UPROPERTY()
 	FPNMultiMap BoneID2NameMap;

@@ -55,7 +55,7 @@ public:
 		}
 	}
 
-	virtual SIZE_T GetResourceSize(EResourceSizeMode::Type Mode) override
+	/*virtual SIZE_T GetResourceSize(EResourceSizeMode::Type Mode) override
 	{
 		uint32 ResSize = 0;
 		for (const FString& Data : AnimData)
@@ -63,6 +63,17 @@ public:
 			ResSize += Data.GetAllocatedSize();
 		}
 		return GetTypeSize() + AnimData.GetAllocatedSize() + ResSize;
+	}*/
+
+	virtual void GetResourceSizeEx (FResourceSizeEx& CumulativeResourceSize) override
+	{
+		uint32 ResSize = 0;
+		for (const FString& Data : AnimData)
+		{
+			ResSize += Data.GetAllocatedSize ();
+		}
+
+		CumulativeResourceSize.AddUnknownMemoryBytes (GetTypeSize () + AnimData.GetAllocatedSize () + ResSize);
 	}
 	// End UObject Interface
 

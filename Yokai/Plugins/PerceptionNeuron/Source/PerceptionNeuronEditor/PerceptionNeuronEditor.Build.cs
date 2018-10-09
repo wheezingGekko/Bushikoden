@@ -2,9 +2,18 @@
 
 namespace UnrealBuildTool.Rules
 {
+    #if WITH_FORWARDED_MODULE_RULES_CTOR
+    using zTargetInfo = ReadOnlyTargetRules;
+#else
+    using zTargetInfo = TargetInfo;
+#endif
+    
     public class PerceptionNeuronEditor : ModuleRules
     {
-        public PerceptionNeuronEditor(TargetInfo Target)
+        public PerceptionNeuronEditor(zTargetInfo Target)
+            #if WITH_FORWARDED_MODULE_RULES_CTOR
+            : base(Target)
+#endif
         {
             PrivateDependencyModuleNames.AddRange(
                 new string[] {	

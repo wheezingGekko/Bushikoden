@@ -2,9 +2,18 @@
 
 namespace UnrealBuildTool.Rules
 {
+    #if WITH_FORWARDED_MODULE_RULES_CTOR
+    using zTargetInfo = ReadOnlyTargetRules;
+#else
+    using zTargetInfo = TargetInfo;
+#endif
+    
 	public class PerceptionNeuronRuntime : ModuleRules
 	{
-		public PerceptionNeuronRuntime(TargetInfo Target)
+		public PerceptionNeuronRuntime(zTargetInfo Target)
+            #if WITH_FORWARDED_MODULE_RULES_CTOR
+            : base(Target)
+#endif
 		{
             Definitions.Add("WITH_AVATARID=0");
 
