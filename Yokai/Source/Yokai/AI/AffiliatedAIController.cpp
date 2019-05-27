@@ -4,7 +4,7 @@
 
 void AAffiliatedAIController::SetGenericTeamId(const FGenericTeamId& NewTeamID) 
 {
-	TeamID = dynamic_cast<EAffiliation>(NewTeamID.GetId());
+	TeamID = static_cast<EAffiliation>(NewTeamID.GetId());
 }
 
 FGenericTeamId AAffiliatedAIController::GetGenericTeamId() const { return (uint8)TeamID; }
@@ -13,10 +13,9 @@ ETeamAttitude::Type AAffiliatedAIController::GetAttitudeTowards(const AActor* Ot
 
 ETeamAttitude::Type AAffiliatedAIController::GetTeamAttitudeTowards(const AActor& Other) const 
 { 
-	//const APawn* thing = Cast<APawn>(*Other);
-	AController* otherController = (dynamic_cast<APawn*>(Other))->GetController();
-	AAffiliatedAIController* affiliatedcontroller = dynamic_cast<AAffiliatedAIController*>(otherController);
-	EAffiliation otherAffiliation = affiliatedcontroller->TeamID;
+	APawn* otherPawn = static_cast<APawn*>(const_cast<AActor*>(&Other));
+	AAffiliatedAIController* otherController = static_cast<AAffiliatedAIController*>(otherPawn->GetController());
+	EAffiliation otherAffiliation = otherController->TeamID;
 	switch (otherAffiliation) 
 	{
 		case EAffiliation::Yokai:
@@ -31,6 +30,4 @@ ETeamAttitude::Type AAffiliatedAIController::GetTeamAttitudeTowards(const AActor
 			return ETeamAttitude::Neutral;
 			break;
 	}
-	
-	return ETeamAttitude::Friendly;
 }
