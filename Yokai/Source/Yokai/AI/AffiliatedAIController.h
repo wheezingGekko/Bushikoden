@@ -7,7 +7,7 @@
 #include "GenericTeamAgentInterface.h"
 #include "AffiliatedAIController.generated.h"
 
-// basic affiliations, to be expanded upon in the futuer
+// basic affiliations, to be expanded upon in the future
 UENUM(BlueprintType)
 enum class EAffiliation : uint8
 {

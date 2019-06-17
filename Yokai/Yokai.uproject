@@ -2,5 +2,16 @@
 	"FileVersion": 3,
 	"EngineAssociation": "4.20",
 	"Category": "",
-	"Description": ""
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "Yokai",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"AIModule",
+				"Engine"
+			]
+		}
+	]
 }
